@@ -1,0 +1,920 @@
+[
+  {
+    "slug": "fundamentos",
+    "name": "Fundamentos",
+    "routes": [
+      {
+        "title": "Fundamentos",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "programacion-para-principiantes"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "visual-studio-code"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "opcional",
+            "note": "EN CUALQUIER MOMENTO",
+            "courses": [
+              "tailwindcss-para-desarrolladores"
+            ]
+          },
+          {
+            "stage": 4,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "git-github-control-versiones-desde-cero"
+            ]
+          },
+          {
+            "stage": 5,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "solid-clean-code"
+            ]
+          },
+          {
+            "stage": 6,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "patrones-diseno"
+            ]
+          },
+          {
+            "stage": 7,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "sql-con-postgres"
+            ]
+          },
+          {
+            "stage": 8,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "docker-guia-practica"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "react",
+    "name": "React",
+    "routes": [
+      {
+        "title": "React",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "javascript-moderno"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "react-de-cero"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "typescript-guia-completa"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "tanstack-query",
+              "zustand-gestor-de-estado-para-react",
+              "shadcn-ui",
+              "react-router"
+            ]
+          },
+          {
+            "stage": 4,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "react-pro"
+            ]
+          },
+          {
+            "stage": 5,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "sql-con-postgres"
+            ]
+          },
+          {
+            "stage": 6,
+            "level": "opcional",
+            "note": "EN CUALQUIER MOMENTO",
+            "courses": [
+              "openai",
+              "react-sockets"
+            ]
+          },
+          {
+            "stage": 7,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "nextjs"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "React Native",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "javascript-moderno"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "typescript-guia-completa"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "opcional",
+            "note": "EN CUALQUIER MOMENTO",
+            "courses": [
+              "tanstack-query",
+              "zustand-gestor-de-estado-para-react"
+            ]
+          },
+          {
+            "stage": 4,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "react-native-expo"
+            ]
+          },
+          {
+            "stage": 4,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "expo-gemini"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "vue",
+    "name": "Vue",
+    "routes": [
+      {
+        "title": "Vue",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "javascript-moderno"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "vue-cero-a-experto"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "typescript-guia-completa"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "nuxt"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "Vue-intermedio"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "nodejs-de-cero-a-experto"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "angular",
+    "name": "Angular",
+    "routes": [
+      {
+        "title": "Angular",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "javascript-moderno"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "angular-moderno"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "typescript-guia-completa"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "angular"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "opcional",
+            "note": "EN CUALQUIER MOMENTO",
+            "courses": [
+              "openai-angular-nestjs",
+              "Angular_socket_bun"
+            ]
+          },
+          {
+            "stage": 4,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "angular-pro"
+            ]
+          },
+          {
+            "stage": 4,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "Astro"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "node",
+    "name": "Node",
+    "routes": [
+      {
+        "title": "NodeJs",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "javascript-moderno"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "nodejs-de-cero-a-experto"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "typescript-guia-completa"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "node-clean-architecture"
+            ]
+          },
+          {
+            "stage": 4,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "nest"
+            ]
+          },
+          {
+            "stage": 5,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "openai"
+            ]
+          },
+          {
+            "stage": 6,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "openai-angular-nestjs"
+            ]
+          },
+          {
+            "stage": 7,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "nest-graphql"
+            ]
+          },
+          {
+            "stage": 7,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "nextjs"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "nest",
+    "name": "Nest",
+    "routes": [
+      {
+        "title": "NestJS",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "javascript-moderno"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "typescript-guia-completa"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "nodejs-de-cero-a-experto"
+            ]
+          },
+          {
+            "stage": 4,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "nest"
+            ]
+          },
+          {
+            "stage": 5,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "NestJS-Testing"
+            ]
+          },
+          {
+            "stage": 6,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "nestjs-reportes"
+            ]
+          },
+          {
+            "stage": 7,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "nest-graphql"
+            ]
+          },
+          {
+            "stage": 8,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "openai"
+            ]
+          },
+          {
+            "stage": 9,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "openai-angular-nestjs"
+            ]
+          },
+          {
+            "stage": 10,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "nestjs-microservicios"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "dart",
+    "name": "Dart / Móvil",
+    "routes": [
+      {
+        "title": "Dart móvil",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "dart-cero-hasta-detalles"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "flutter-movil-cero-a-experto"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "riverpod-con-anotaciones"
+            ]
+          },
+          {
+            "stage": 4,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "Flutter-Gemini"
+            ]
+          },
+          {
+            "stage": 5,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "flutter-movil-intermedio"
+            ]
+          },
+          {
+            "stage": 5,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "flutter-bloc"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Dart Web",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "dart-cero-hasta-detalles"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "python",
+    "name": "Python",
+    "routes": [
+      {
+        "title": "Python",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "python"
+            ]
+          },
+          {
+            "stage": 1,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "python-n8n-automatiza-rutinas"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "fastapi"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "django"
+            ]
+          },
+          {
+            "stage": 4,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "python-ia-aplicada"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "java",
+    "name": "Java",
+    "routes": [
+      {
+        "title": "Java",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "Java"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "java-avanzado"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "spring-boot"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "spring-boot-patrones-arquitectura"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "springboot-mvc-hexagonal"
+            ]
+          },
+          {
+            "stage": 4,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "spring-boot-microservicios"
+            ]
+          },
+          {
+            "stage": 5,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "kafka-springboot-event-driven"
+            ]
+          },
+          {
+            "stage": 6,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "spring-AI"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "csharp",
+    "name": "C#",
+    "routes": [
+      {
+        "title": "C#",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "csharp"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "NET-Backend"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "net-pruebascompletas"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "netfullstack"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ia",
+    "name": "IA",
+    "routes": [
+      {
+        "title": "IA/Automatizaciones",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "n8n-mcp"
+            ]
+          },
+          {
+            "stage": 1,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "programacion-para-principiantes"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "Ingeniería-de-prompts"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "patrones-diseno-agentico"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "vibe-coding"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "nodejs-de-cero-a-experto"
+            ]
+          },
+          {
+            "stage": 3,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "docker-guia-practica"
+            ]
+          },
+          {
+            "stage": 4,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "claude-code-guia-completa",
+              "open-code-guia-completa",
+              "codex"
+            ]
+          },
+          {
+            "stage": 5,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "ia-para-developers"
+            ]
+          },
+          {
+            "stage": 5,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "sql-con-postgres"
+            ]
+          },
+          {
+            "stage": 6,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "nest"
+            ]
+          },
+          {
+            "stage": 7,
+            "level": "recomendado",
+            "note": null,
+            "courses": [
+              "angular-moderno",
+              "react-de-cero",
+              "vue-cero-a-experto"
+            ]
+          },
+          {
+            "stage": 7,
+            "level": "opcional",
+            "note": null,
+            "courses": [
+              "openai-angular-nestjs",
+              "openai",
+              "Flutter-Gemini",
+              "expo-gemini"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "php",
+    "name": "PHP",
+    "routes": [
+      {
+        "title": "PHP",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "PHP-moderno"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "laravel-ai"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "go",
+    "name": "Go",
+    "routes": [
+      {
+        "title": "GO",
+        "steps": [
+          {
+            "stage": 1,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "golang-fundamentos-lenguaje"
+            ]
+          },
+          {
+            "stage": 2,
+            "level": "requerido",
+            "note": null,
+            "courses": [
+              "golang-backend-profesional"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

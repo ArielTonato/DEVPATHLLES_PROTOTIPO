@@ -1,0 +1,1752 @@
+[
+    {
+        "slug": "git-github-control-versiones-desde-cero",
+        "title": "GIT+GitHub: Control de versiones desde Cero",
+        "summary": "Domina GIT y GitHub para gestionar y colaborar en proyectos de forma eficiente. Aprende desde lo básico hasta flujos de trabajo avanzados.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "No es necesario conocimiento alguno de Git",
+            "No es necesario conocimiento sobre GitHub",
+            "Navegación básica en el powershell o terminal es recomendada pero no necesaria",
+            "Se puede seguir el curso en Windows, OSX o Linux sin problemas"
+        ],
+        "topics": [
+            "Git: Commits, ramas, merges, Stash, Rebase, Reflog y recuperación de proyectos.",
+            "GitHub: Repositorios remotos, Pull Requests, Tokens y trabajo colaborativo.",
+            "Organización: Teams, Organizaciones y Gists.",
+            "Buenas prácticas: Manejo seguro del historial y colaboración en proyectos reales.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "golang-backend-profesional",
+        "title": "Golang: Backend Profesional",
+        "summary": "Construye APIs REST profesionales en Go desde cero con un proyecto real desplegado en producción con criterio profesional.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Fundamentos de Golang, si aun no tienes esta base, te invitamos a que tomes el curso Golang: fundamentos del leguaje",
+            "Bases de datos estructuradas",
+            "Conocimiento en SQL",
+            "Git y Github",
+            "PostgreSQL (deseable)"
+        ],
+        "topics": [
+            "Backend con Go: HTTP, servidores, rutas, middlewares y JSON.",
+            "Arquitectura: Clean Architecture, Repository Pattern, Domain, Use Cases y Adapters.",
+            "Bases de datos: PostgreSQL, migraciones, SQLC y Redis.",
+            "Seguridad: JWT, Argon2id, autenticación, autorización y Token Store con Redis.",
+            "Calidad del código: Validaciones, Validator V10, manejo de errores, Sentinel Errors y RFC 7807.",
+            "Buenas prácticas: Logging, patrones de diseño y organización de proyectos.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "laravel-ai",
+        "title": "Laravel 13: AI, REST, JWT, Repository Pattern",
+        "summary": "Aprende a construir una API REST profesional con Laravel desarrollando una Movie API completa desde cero. Dominarás CRUD, JWT, el Repository Pattern, la caché, el versionado y mucho más, aplicando las buenas prácticas utilizadas en proyectos reales.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de programación o lógica de programación serán útiles. Experiencia previa en PHP; aprenderás el uso de Laravel no acerca del lenguaje PHP. Tener instalado un editor de código, preferiblemente Visual Studio Code. Ganas de aprender y practicar escribiendo código durante el curso."
+        ],
+        "topics": [
+            "Laravel: Laravel Herd, PHP 8.4, PostgreSQL y Docker.",
+            "APIs REST: Rutas, controladores, respuestas JSON, CRUD y API Resources.",
+            "Arquitectura: Repository Pattern, Form Requests y relaciones entre modelos.",
+            "Seguridad: JWT, autorización por roles, middleware y configuración de CORS.",
+            "Optimización: Caché con invalidación automática, filtros, búsquedas, ordenamiento y paginación.",
+            "Producción: Versionamiento de APIs, subida de imágenes, logging y manejo consistente de errores.",
+            "Documentación: OpenAPI 3.1 utilizando Scramble.",
+            "Inteligencia Artificial: Integración con Claude de Anthropic para generar sinopsis y recomendaciones.",
+            "Despliegue: Railway, PostgreSQL administrado y checklist de buenas prácticas.",
+            "Testing: Pruebas automatizadas como parte del flujo de desarrollo.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "spring-AI",
+        "title": "Spring AI: LLMs, Tools, RAG, Agentes y Deploy en AWS",
+        "summary": "Integra inteligencia artificial en Java con Spring AI 2.x. Construye un asistente médico educativo completo: Tool Calling, RAG, memoria persistente y agentes inteligentes. Del chatbot básico al deploy en AWS. Stack: Java 21, Spring Boot 4, Gemini.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Haber completado un curso de Java y Java Avanzado o dominar la programación funcional en Java.",
+            "Tener conocimientos previos de Spring Boot."
+        ],
+        "topics": [
+            "Stack moderno: Java 21, Spring Boot 4, Spring AI 2.x, PostgreSQL, Docker Compose, Chroma y AWS.",
+            "LLMs: Google Gemini, Ollama y portabilidad entre proveedores.",
+            "Prompt Engineering: PromptTemplate, Few-shot, Context Engineering, Structured Outputs y archivos .st.",
+            "Tool Calling: Integración de funciones, APIs y bases de datos desde el modelo.",
+            "Memoria y RAG: JdbcChatMemory, embeddings, vector stores, DocumentReader, TextSplitter y QuestionAnswerAdvisor.",
+            "Agents: Chain Workflow, Routing Workflow, Orchestrator-Workers, Human-in-the-Loop y Progress Notifications.",
+            "MCP: Resources, Prompts, Tools e integración mediante Model Context Protocol.",
+            "Testing: Integración de herramientas MCP y pruebas sobre modelos no deterministas.",
+            "Producción: Docker multi-stage, AWS ECR, EC2, RDS, CloudWatch y monitoreo.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "open-code-guia-completa",
+        "title": "OpenCode: Guía completa para desarrolladores de software",
+        "summary": "OpenCode, el agente de IA open source para programar desde la terminal: instalación, CLI, configuración, agentes personalizados, MCP y flujos de trabajo. Un curso práctico y orientado a proyectos reales.",
+        "areas": [
+            "agentes ia"
+        ],
+        "prerequisites": [
+            "Poder realizar instalaciones en el equipo (Node, Bun, entre otras por ejemplo)",
+            "Cuenta gratuita en GitHub para seguir los ejercicios prácticos con repositorios reales.",
+            "Opcional - Conocimientos básicos de JavaScript/TypeScript y desarrollo web (no se requiere experiencia previa con IA).",
+            "Opcional - Manejo básico de la terminal y comandos de Git."
+        ],
+        "topics": [
+            "OpenCode: Instalación, configuración, TUI, comandos como /redo, /undo, /compact, /init y Plan Mode.",
+            "Proyectos prácticos: Weather App, Asteroids y una aplicación Full Stack desarrollada con IA.",
+            "Git y GitHub: Worktrees, GitHub App, comandos personalizados y revisiones asistidas.",
+            "Spec Driven Development (SDD): Creación de Specs, implementación, verificación y criterios de aceptación.",
+            "Agents y MCPs: Playwright, Context7, Supabase y ampliación de capacidades mediante herramientas externas.",
+            "Proyecto OpenDayCare: Next.js, React, TypeScript, Supabase, Resend y despliegue en Vercel.",
+            "Bases de datos: Diseño de esquemas, migraciones y conexión mediante MCP.",
+            "Automatizaciones: Agentes paralelos, mejores prácticas, accesibilidad, auditorías, migraciones y tareas programadas.",
+            "Metodologías: Grill Me, OpenSpec y revisión asistida por IA.",
+            "Producción: Configuración de entornos, despliegues y revisión final.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "claude-code-guia-completa",
+        "title": "Claude Code: Guía completa para desarrolladores de software",
+        "summary": "Aprende a usar Claude Code sin importar si ya lo has usado antes. Desde la instalación y flujos de trabajo diarios, hasta personalización con CLAUDE.md, conexión a servicios externos vía MCP, automatización con hooks y mucho más.",
+        "areas": [
+            "agentes ia"
+        ],
+        "prerequisites": [
+            "Experiencia básica de programación (no hace falta ser experto).",
+            "Una suscripción a Claude Code para seguir las prácticas paso a paso. (Se enseña Ollama para seguir el curso gratis en su mayoría)",
+            "Conocimientos básicos de Git y línea de comandos son recomendables pero no obligatorios."
+        ],
+        "topics": [
+            "Lo que vas a hacer: Construir una plataforma de juegos como: Tetris, Asteroides, Arkanoid y Snake.",
+            "Lo que vas a hacer: Levantar Arcade Vault, una app web real con autenticación, Supabase, leaderboard y controles táctiles.",
+            "Lo que vas a hacer: Diseñar tu flujo Spec-Driven Design: planificar, revisar y ejecutar antes de codificar.",
+            "Lo que vas a hacer: Crear tus propios skills, comandos y hooks que automatizan flujos enteros.",
+            "Lo que vas a hacer: Conectar Claude Code al mundo con MCP servers (incluido control de navegador con Playwright).",
+            "Lo que vas a hacer: Orquestar equipos de agentes trabajando en paralelo con el patrón orquestador/trabajador.",
+            "Lo que vas a hacer: Auditar la seguridad de tu app y desplegarla a producción con rutinas automatizadas."
+        ]
+    },
+    {
+        "slug": "ia-para-developers",
+        "title": "IA para Developers: Claude API, RAG y Agentes con Node",
+        "summary": "Construye un agente de IA desde cero con Claude API, RAG y function calling en Node.js. Sin frameworks, sin magia: solo Anthropic SDK, OpenAI para embedding y SQLite. Pasa de tu primera llamada a la API a un asistente desplegable en producción.",
+        "areas": [
+            "agentes ia"
+        ],
+        "prerequisites": [
+            "Programación para principiantes - Primeros pasos.",
+            "TypeScript: Tu completa guía y manual de mano.",
+            "Ingeniería de prompts: Para la vida real (Opcional).",
+            "JavaScript o TypeScript a nivel intermedio, Node.js instalado, API keys de Anthropic y OpenAI (los costos del curso completo son mínimos — del orden de centavos), y curiosidad por lo que hay debajo de los frameworks."
+        ],
+        "topics": [
+            "La Messages API de Claude desde cero: mensajes, system prompts, streaming y conversaciones multi-turno.",
+            "Function calling y el agentic loop completo a mano: el flujo real de enviar → tool_use → ejecutar → tool_result.",
+            "Structured output garantizado: con tool_choice forzado, sin lidiar con el parseo de texto libre.",
+            "RAG profundo con la ayuda de la API de OpenAI: chunking de Markdown por headings, embeddings de OpenAI, vector store en SQLite con sqlite-vec y búsqueda KNN.",
+            "Arquitectura híbrida: cómo combinar API + Tools + RAG en un agente que decide autónomamente cuándo usar cada recurso.",
+            "Guardrails de seguridad reales: sanitización, detección de prompt injection (16 patrones en inglés y español) y rate limiting con sliding window.",
+            "Cálculo de costos en USD: estimación precisa por modelo y por request — sin sorpresas en la factura.",
+            "Deploy automatizado: en GitHub Codespaces con .devcontainer y secrets.",
+            "Runtime y Lenguaje: Node.js 20+ y TypeScript en modo strict (con noUncheckedIndexedAccess).",
+            "Modelos y APIs: Anthropic SDK con claude-sonnet-4-6 y OpenAI SDK para embeddings con text-embedding-3-small.",
+            "Base de Datos: SQLite con better-sqlite3 y sqlite-vec como vector store local.",
+            "Entorno: GitHub Codespaces para deploy rápido."
+        ]
+    },
+    {
+        "slug": "python-ia-aplicada",
+        "title": "Python: Inteligencia artificial aplicada",
+        "summary": "Curso práctico de Python aplicado a IA: crea agentes, domina prompts, usa OpenAI, implementa RAG, orquesta con LangChain y despliega con FastAPI. Aprende a llevar IA real a producción con proyectos útiles.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Python Fundamentos (Básico-Intermedio o intermedio)",
+            "Fundamentos de bases de datos.",
+            "Ingeniería de prompts (Deseable, no obligatorio)"
+        ],
+        "topics": [
+            "Introducción a la IA Aplicada: APIKey de OpenAI, Tokens y LLM.",
+            "Prompts: Zero-shot, Few-shot, Chain-of-Thought, Prompt template y System prompt (Roles).",
+            "Técnicas Avanzadas de Prompts: JSON return y Function calling.",
+            "RAG (Retrieval-Augmented Generation): Bases de datos vectoriales Embeddings e Indexación Chroma DB Similitud coseno",
+            "LangChain: LCEL (LangChain Expression Language).",
+            "Memoria Persistente: SQLite y PostgreSQL.",
+            "LangGraph: Nodos, Edges y Estados.",
+            "Y muchas cosas más…"
+        ]
+    },
+    {
+        "slug": "spring-boot-patrones-arquitectura",
+        "title": "Spring Boot 4: Patrones de arquitectura",
+        "summary": "Lleva tu nivel de Spring Boot de CRUD a arquitectura profesional. Construye Atlas-Bank: un proyecto que aplica SOLID, patrones GoF, DDD, arquitectura hexagonal, Keycloak, ArchUnit y AI como cliente. Clases cortas y con código real.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Conocimiento en Java y Spring Boot"
+        ],
+        "topics": [
+            "Seguridad Empresarial: Vas a trabajar con seguridad real utilizando Keycloak.",
+            "Modelado de Dominio y Patrones: Aprenderás a modelar correctamente el dominio aplicando patrones esenciales como Strategy, Factory u Observer.",
+            "Arquitectura Hexagonal: Llevarás el proyecto hacia una arquitectura completamente desacoplada y modular.",
+            "Testing Arquitectónico: Incorporarás pruebas de arquitectura con ArchUnit, algo que muy pocos cursos enseñan y que marca una diferencia enorme en proyectos reales.",
+            "Integración con Agentes de IA: Vas a integrar un agente de AI como cliente de tu sistema. No para “usar AI”, sino para demostrar que si tu arquitectura está bien diseñada, cualquier cliente (REST, CLI o un agente inteligente) puede operar contra ella sin romper el dominio. Esa es la verdadera validación de una arquitectura bien hecha."
+        ]
+    },
+    {
+        "slug": "Ingeniería-de-prompts",
+        "title": "Ingeniería de prompts: Para la vida real",
+        "summary": "Este es un curso donde aprenderás Prompt Engineering de forma simple, práctica y sin tecnicismos, para que puedas escribir mejores prompts y obtener excelentes resultados con herramientas de inteligencia artificial como ChatGPT, Claude, Gemini y más.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "No se necesita experiencia previa. Solo necesitas curiosidad y ganas de aprender a trabajar mejor con la IA.",
+            "No se requiere experiencia en programación ni conocimientos técnicos.",
+            "Este curso fue diseñado desde cero para que cualquier persona."
+        ],
+        "topics": []
+    },
+    {
+        "slug": "vibe-coding",
+        "title": "Vibe Coding: De forma responsable",
+        "summary": "Crearás aplicaciones reales usando IA como desarrollador, pero con criterio profesional. Aprenderás autenticación, carga de archivos, integración con Supabase y buenas prácticas y seguridad para llevar tus proyectos a producción con confianza.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Opcional - Tener conocimientos básicos de programación y comprensión general de cómo funciona una aplicación web.",
+            "Poder realizar instalaciones en el equipo"
+        ],
+        "topics": [
+            "Vibe Coding con criterio: Comprender qué es, por qué funciona tan bien y cuáles son sus riesgos cuando se usa sin control.",
+            "Validación de código: Formular mejores prompts y validar con precisión el código generado por la inteligencia artificial.",
+            "Entorno profesional: Configurar un flujo de trabajo real con Git, manejo de ramas y buenas prácticas de control de versiones.",
+            "Desarrollo estructurado: Diseñar y desarrollar una aplicación moderna desde los cimientos.",
+            "Base de datos real: Integrar Supabase y PostgreSQL para la gestión de datos.",
+            "Funcionalidades avanzadas: Implementar paginación, filtros avanzados y búsquedas eficientes.",
+            "Internacionalización: Construir una aplicación multi-idioma.",
+            "Autenticación robusta: Implementar inicio de sesión con redes sociales y Google Sign-In.",
+            "Seguridad y control: Diseñar un sistema de roles y autorización, además de aplicar buenas prácticas en el manejo correcto de credenciales.",
+            "Gestión de contenido: Crear, editar y gestionar propiedades con carga real de archivos.",
+            "Despliegue: Llevar la aplicación a producción usando Vercel."
+        ]
+    },
+    {
+        "slug": "golang-fundamentos-lenguaje",
+        "title": "GoLang: Fundamentos del lenguaje",
+        "summary": "Aprende Golang desde cero, profesional y con buenas prácticas. Tipado estático, paquetes, funciones, structs, interfaces, errores y concurrencia. Ejemplos reales para código limpio y listo para desplegar, ideal si vienes de JS/Python/PHP y más.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "Tener conocimientos de programación básica",
+            "Conocer al menos un lenguaje de programación aunque no se domine el lenguaje (opcional pero útil)",
+            "Git y GitHub"
+        ],
+        "topics": [
+            "Introducción y fundamentos de Golang",
+            "Tipos compuestos de datos y estructuras de control",
+            "Funciones, métodos y el uso de punteros",
+            "Interfaces y tipos genéricos",
+            "Manejo correcto de errores",
+            "Módulos, paquetes e importaciones",
+            "Concurrencia nativa: Goroutines, Go canales, Select, Mutex y Context",
+            "¡Y muchas cosas más!"
+        ]
+    },
+    {
+        "slug": "PHP-moderno",
+        "title": "PHP moderno: Empieza tu camino en el lenguaje",
+        "summary": "Aprende PHP moderno desde cero y con buenas prácticas. Domina fundamentos, control de flujo, funciones, POO, Composer, APIs y base de datos, hasta desplegar tu primer backend real y listo para producción. Ideal para iniciar tu camino profesional.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "Programación para principiantes primeros pasos (opcional)",
+            "No se requiere experiencia previa en PHP; aprenderás el lenguaje paso a paso desde los fundamentos.",
+            "Conocimientos básicos de programación o lógica de programación serán útiles, pero no obligatorios.",
+            "Tener instalado un editor de código, preferiblemente Visual Studio Code.",
+            "Ganas de aprender y practicar escribiendo código durante el curso."
+        ],
+        "topics": [
+            "Fundamentos de PHP moderno: Sintaxis, tipado estricto y buenas prácticas de desarrollo.",
+            "Programación Orientada a Objetos: Aplicada directamente a proyectos reales.",
+            "Gestión de dependencias: Manejo profesional de Composer, namespaces y autoloading.",
+            "Desarrollo de APIs REST: Implementación de CRUD completo, manejo de requests, responses y formato JSON.",
+            "Robustez en el backend: Validaciones de datos y manejo correcto de errores en una API.",
+            "Ecosistema Laravel: Introducción al framework, estructura profesional y despliegue automatizado."
+        ]
+    },
+    {
+        "slug": "spring-boot-microservicios",
+        "title": "Spring Boot 4: Arquitectura de Microservicios",
+        "summary": "Domina microservicios con Spring Boot 4: arquitectura de capas, MongoDB, Docker, Kubernetes, comunicación entre servicios, resiliencia, seguridad OAuth2, observabilidad y patrones enterprise. Proyecto e-commerce con buenas prácticas de producción.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Conocimientos sólidos de Java y POO: manejo fluido de clases, interfaces, herencia y excepciones.",
+            "Experiencia previa con Spring Boot: familiaridad con controladores REST, JPA, validaciones y conceptos básicos de Spring Security.",
+            "Docker (no excluyente): comprensión general de qué es un contenedor, cómo ejecutar una imagen y cómo interpretar un archivo docker-compose.yml.",
+            "SQL y bases de datos relacionales: conocimiento de tablas, relaciones y consultas básicas."
+        ],
+        "topics": [
+            "Diseño limpio, escalable y mantenible.",
+            "Separación estricta de responsabilidades.",
+            "Validación robusta de datos.",
+            "Inyección de dependencias limpia por constructor.",
+            "Logging avanzado y manejo de errores profesional.",
+            "Evolución de la arquitectura: Comunicación eficiente entre servicios.",
+            "Evolución de la arquitectura: Configuración centralizada y dinámica.",
+            "Evolución de la arquitectura: Estrategias de enrutamiento con un API Gateway.",
+            "Evolución de la arquitectura: Patrones de resiliencia y tolerancia a fallos.",
+            "Evolución de la arquitectura: Mensajería asíncrona para el desacoplamiento de componentes.",
+            "Evolución de la arquitectura: Observabilidad integral: métricas, trazas y logs.",
+            "Evolución de la arquitectura: Seguridad empresarial mediante OAuth2.",
+            "Evolución de la arquitectura: Contenerización y despliegue con Docker y Kubernetes."
+        ]
+    },
+    {
+        "slug": "Angular_socket_bun",
+        "title": "Angular + Sockets: Aplicaciones en tiempo real con Bun",
+        "summary": "Aprende a crear y configurar aplicaciones en tiempo real usando la implementación nativa de websockets junto a un backend en Bun.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de JavaScript o TypeScript (variables, funciones, async/await).",
+            "Conocimientos básicos de Angular.",
+            "Poder realizar instalaciones en el equipo (editor de código, extensiones y Bun)",
+            "Ganas de practicar: vamos a construir varios proyectos y probar con múltiples navegadores.",
+            "No necesitas experiencia previa con WebSockets ni con Bun."
+        ],
+        "topics": [
+            "Dashboard en vivo: Gráficas interactivas de partidos políticos con ChartJS, formularios reactivos y actualizaciones de datos en tiempo real.",
+            "Mapas interactivos: Sincronización en tiempo real de ubicaciones y movimientos de marcadores entre múltiples clientes de forma simultánea.",
+            "Sistema de colas y tickets: Pantallas de atención al cliente con actualización instantánea de turnos, gestionando atención preferencial y normal.",
+            "Chat avanzado: Aplicación de mensajería con soporte para mensajes públicos, privados y salas de chat independientes.",
+            "Buenas prácticas y arquitectura profesional: Tipado estricto en todo el flujo de datos.",
+            "Buenas prácticas y arquitectura profesional: Separación de responsabilidades mediante servicios especializados.",
+            "Buenas prácticas y arquitectura profesional: Validación robusta de datos en el cliente y el servidor.",
+            "Buenas prácticas y arquitectura profesional: Uso de Signals y Signal Outputs para una experiencia de usuario verdaderamente reactiva y ultra eficiente."
+        ]
+    },
+    {
+        "slug": "react-sockets",
+        "title": "React+Sockets: Aplicaciones en tiempo real con Bun",
+        "summary": "Aprende a crear y configurar aplicaciones en tiempo real usando la implementación nativa de websockets junto a un backend en Bun.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de JavaScript o TypeScript (variables, funciones, async/await).",
+            "Conocimientos básicos de React (componentes, props, estado y hooks).",
+            "Poder realizar instalaciones en el equipo (editor de código, extensiones y Bun)",
+            "Ganas de practicar: vamos a construir varios proyectos y probar con múltiples navegadores.",
+            "No necesitas experiencia previa con WebSockets ni con Bun."
+        ],
+        "topics": [
+            "Dashboard interactivo: Gráficas de partidos políticos con React + ChartJS alimentadas y actualizadas por WebSockets en vivo.",
+            "Mapas en vivo: Mapas colaborativos con Mapbox, sincronización de movimientos y marcadores compartidos en tiempo real entre múltiples usuarios.",
+            "Sistema de colas y tickets: Aplicación tipo atención al cliente con pantallas de visualización y actualización instantánea de turnos.",
+            "Chat seguro y persistente: Mensajería global y privada con usuarios conectados, autenticación mediante JWT y almacenamiento en PostgreSQL + Prisma.",
+            "Arquitectura y herramientas profesionales: Organización de código basada en handlers, services y stores.",
+            "Arquitectura y herramientas profesionales: Validación estricta de datos con Zod.",
+            "Arquitectura y herramientas profesionales: Tipado completo del payload para garantizar un código mantenible.",
+            "Arquitectura y herramientas profesionales: Gestión de estado en React mediante Context API y hooks personalizados."
+        ]
+    },
+    {
+        "slug": "tailwindcss-para-desarrolladores",
+        "title": "TailwindCSS: Para desarrolladores de software",
+        "summary": "Aprende a usar Tailwind CSS orientado a desarrolladores, para crear diseños responsivos y modernos, evitando usar JavaScript para esto.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimiento básico sobre CSS, si se conoce sobre MediaQueries mucho mejor."
+        ],
+        "topics": []
+    },
+    {
+        "slug": "python-n8n-automatiza-rutinas",
+        "title": "Python + n8n: Automatiza rutinas cotidianas",
+        "summary": "Aprende a utilizar Python para tus proyectos de automatización cotidiana o para tus proyectos personales. Aprende conceptos n8n, crea scripts de automatización, servicios simples con FastAPI, manipulación de datos y mucho más.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "Conocimientos de Python a nivel básico o intermedio (requerido)",
+            "Fundamentos de n8n (deseable)",
+            "Conocimientos básicos de FastAPI (opcional)"
+        ],
+        "topics": [
+            "Procesamiento inteligente: Limpieza, análisis y transformación de datos en flujo constante.",
+            "Automatización de archivos: Organización automática de directorios, detección de duplicados y lectura de archivos pesados por partes.",
+            "Comunicaciones automáticas: Configuración avanzada de correos, alertas y notificaciones automatizadas.",
+            "Arquitectura reutilizable: Diseño de flujos de trabajo modulares y escalables para casos de uso reales."
+        ]
+    },
+    {
+        "slug": "springboot-mvc-hexagonal",
+        "title": "Spring Boot: De MVC a Hexagonal",
+        "summary": "Programa intensivo de Diseño de Software con Spring Boot. Aprenderás a crear apps modulares y resilientes con Arquitectura Hexagonal. Usaremos una migración de JPA a MongoDB para mostrar el acoplamiento y aplicar Inversión de Dependencias.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Este no es un curso introductorio a Java ni a Spring Boot. Está pensado para desarrolladores que ya cuentan con experiencia previa en desarrollo backend y desean profundizar en arquitectura de software y diseño de proyectos.",
+            "Para aprovechar el curso, es importante que tengas:",
+            "¿Aún no dominas Java?",
+            "Te recomendamos seguir nuestra Ruta de Aprendizaje de Java antes de avanzar a este curso."
+        ],
+        "topics": [
+            "Fase 1: Backend MVC Clásico: Comenzaremos analizando sus responsabilidades, acoplamientos y limitaciones. Aprenderás a diferenciar la lógica de negocio de la infraestructura, a utilizar correctamente DTOs, a manejar validaciones y a entender cómo fluye una petición desde la API hasta la persistencia.",
+            "Fase 2: Migración e Impacto de Datos (SQL a MongoDB): Abordaremos el acoplamiento a la base de datos migrando de SQL a NoSQL. Analizaremos los cambios de modelo y las implicaciones arquitectónicas, sirviendo como el escenario perfecto para justificar la necesidad de una estructura más robusta.",
+            "Fase 3: Arquitectura Hexagonal Pura: Construiremos un dominio completamente aislado, definiendo puertos y adaptadores, gestionando excepciones y demostrando cómo el corazón de tu aplicación se mantiene estable e imperturbable frente a cualquier cambio tecnológico.",
+            "Aislamiento de Dominio: Diseñar lógica de negocio independiente de frameworks y bases de datos.",
+            "Calidad de Código: Mejorar radicalmente la testeabilidad, mantenibilidad y resiliencia de tus sistemas.",
+            "Transición a Microservicios: Una introducción sólida al paso de un monolito modular hacia un sistema distribuido, analizando la comunicación entre servicios y el manejo de fallos.",
+            "Criterio Técnico Senior: Capacidad para evaluar y justificar cuándo y por qué implementar patrones arquitectónicos avanzados en producción."
+        ]
+    },
+    {
+        "slug": "net-pruebascompletas",
+        "title": ".NET: Pruebas completas para minimal API",
+        "summary": "Este curso te enseña a crear pruebas automatizadas para Minimal APIs en .NET de forma práctica y directa. Aprenderás a validar comportamientos, estructurar servicios y asegurar la calidad de tus aplicaciones desde el inicio.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de C# y .NET, no es necesario ser experto.",
+            "Nociones básicas de programación, como variables, condicionales y bucles.",
+            "Tener instalado Visual Studio Code y .NET 8, el curso guía paso a paso todo el proceso de configuración.",
+            "Interés en aprender pruebas automatizadas y buenas prácticas, con disposición para practicar y aplicar los conceptos en ejemplos reales."
+        ],
+        "topics": [
+            "Estrategia de Testing: Comprender la diferencia exacta entre pruebas unitarias y de integración, y saber cuándo aplicar cada una.",
+            "Estructura Profesional: Crear proyectos de pruebas limpios y aplicar correctamente el patrón AAA (Arrange, Act, Assert) para escribir tests claros, legibles y mantenibles.",
+            "El Stack de Testing en .NET: Dominar las herramientas estándar de la industria: xUnit como framework de pruebas principal. Moq para simular dependencias y aislar componentes de forma efectiva. FluentAssertions para escribir aserciones mucho más expresivas y naturales.",
+            "Pruebas de Integración Reales: Testear endpoints HTTP reales utilizando WebApplicationFactory.",
+            "Arquitectura y Diseño: Organizar tus pruebas por Features siguiendo las mejores prácticas de arquitectura y validar flujos completos de creación, obtención, actualización y eliminación de datos (CRUD)."
+        ]
+    },
+    {
+        "slug": "nuxt",
+        "title": "Nuxt: El marco de trabajo web progresivo (Nuxt 4+)",
+        "summary": "Aprende Nuxt.js, el framework basado en Vue.js para crear aplicaciones web rápidas, modernas y optimizadas para SEO, desde los fundamentos hasta el despliegue con SSR, SSG y API Routes.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de JavaScript y/o TypeScript.",
+            "Idealmente haber usado alguna vez Vue.js, aunque el curso incluye un reforzamiento completo.",
+            "Tener instalado Node.js y un editor de código como VSCode.",
+            "No se necesita experiencia previa con Nuxt; el curso cubre conceptos desde cero y avanza hasta nivel profesional."
+        ],
+        "topics": [
+            "Reforzamiento esencial de Vue 3: Componentes, props, estado y eventos.",
+            "Reforzamiento esencial de Vue 3: Directivas v-if, v-for y patrones de reactividad.",
+            "Reforzamiento esencial de Vue 3: Composables personalizados y ciclo de vida.",
+            "Reforzamiento esencial de Vue 3: Peticiones HTTP, useFetch, genéricos y caché.",
+            "Nuxt – Primeros pasos y conceptos clave: SSR, SSG, SPA y cómo Nuxt gestiona cada modo.",
+            "Nuxt – Primeros pasos y conceptos clave: Estructura de directorios y páginas basadas en archivos.",
+            "Nuxt – Primeros pasos y conceptos clave: Navegación con NuxtLink, layouts, SEO y metatags.",
+            "Nuxt – Primeros pasos y conceptos clave: Despliegue básico de aplicaciones Nuxt.",
+            "Server API con PostgreSQL + Prisma: Crear server endpoints en Nuxt.",
+            "Server API con PostgreSQL + Prisma: Conectar Prisma con PostgreSQL/NeonTech.",
+            "Server API con PostgreSQL + Prisma: Modelos, seeds, relaciones y consultas.",
+            "Server API con PostgreSQL + Prisma: CRUD de reseñas y productos desde la base de datos.",
+            "Paginación avanzada y consumo de APIs: Endpoints con parámetros de query.",
+            "Paginación avanzada y consumo de APIs: Composables personalizados para productos.",
+            "Paginación avanzada y consumo de APIs: Paginación reactiva y tablas con TanStack Table.",
+            "Paginación avanzada y consumo de APIs: useFetch, useLazyFetch y componentes perezosos.",
+            "Autenticación y autorización: Hash de contraseñas y creación de usuarios.",
+            "Autenticación y autorización: Server endpoints seguros para login.",
+            "Autenticación y autorización: Cookies de sesión seguras.",
+            "Autenticación y autorización: Middlewares de rutas y reglas de acceso.",
+            "Autenticación y autorización: Composable useAuthentication.",
+            "Administración de productos: Validación de sesión en APIs.",
+            "Administración de productos: Middlewares en el Server Engine.",
+            "Administración de productos: Creación/edición de productos desde el panel admin.",
+            "Administración de productos: Manejo de formularios, validaciones y actualizaciones.",
+            "Carga de archivos con Cloudinary: Preparación del almacenamiento.",
+            "Carga de archivos con Cloudinary: Recepción, validación y envío de archivos.",
+            "Carga de archivos con Cloudinary: Limpieza, vistas previas locales y manejo con Cloudinary.",
+            "Maestro–Detalle: Reseñas: Relación uno a muchos entre productos y reseñas.",
+            "Maestro–Detalle: Reseñas: Server endpoints para reseñas.",
+            "Maestro–Detalle: Reseñas: Modal de reseñas, hidratación y solución de errores.",
+            "Maestro–Detalle: Reseñas: Crear reseñas autenticadas desde el cliente.",
+            "Despliegue a producción: Vista previa de producción.",
+            "Despliegue a producción: Subir proyecto a GitHub.",
+            "Despliegue a producción: Despliegue profesional en Vercel.",
+            "Despliegue a producción: Configuración avanzada de SEO con useSeoMeta."
+        ]
+    },
+    {
+        "slug": "netfullstack",
+        "title": "Blazor: Desde cero con arquitectura limpia",
+        "summary": "Aprende desarrollo web Fullstack con C# y .NET Core. Domina Clean Architecture, Blazor Server y WebAssembly, CQRS con MediatR, EF Core, ASP.NET Core Identity, autenticación, autorización por roles, SQL Server, Tailwind CSS y QuickGrid en un proyecto.",
+        "areas": [
+            "fullstack"
+        ],
+        "prerequisites": [
+            "Necesitas dominio de los fundamentos de C#",
+            "Haber completado nuestros cursos introductorios de C# y .NET Backend te dará la base ideal para avanzar de forma más cómoda y aprovechar al máximo este curso."
+        ],
+        "topics": [
+            "Arquitectura Limpia y Patrones: Implementar una arquitectura profesional con estricta separación por capas, utilizando patrones avanzados como CQRS (Command Query Responsibility Segregation) y Mediator.",
+            "Persistencia de Datos Profesional: Conectar tu aplicación a bases de datos reales mediante Entity Framework Core, dominando la creación de migraciones, el patrón repositorio, consultas optimizadas e inyección de dependencias.",
+            "Seguridad y Autenticación: Integrar flujos de autenticación y autorización robustos utilizando ASP.NET Core Identity y proveedores externos como Google, aplicando roles personalizados para la protección de recursos críticos.",
+            "Frontend Reactivo con Blazor: Diseñar interfaces de usuario dinámicas, modernas y estilizadas con Tailwind CSS, aprovechando al máximo la reactividad de Blazor sin necesidad de escribir JavaScript.",
+            "Despliegue e Infraestructura Cloud (AWS): Llevarás tu proyecto final a producción realizando un despliegue completo en Amazon Web Services utilizando AWS RDS para la base de datos y Elastic Beanstalk para la aplicación, replicando un entorno de trabajo real."
+        ]
+    },
+    {
+        "slug": "fastapi",
+        "title": "FastAPI: Crea APIs eficientes con Python",
+        "summary": "Aprende a crear API modernas, seguras y rápidas con Python, Pydantic, JWT, WebSockets, Webhooks Bases de datos, subida de archivos, despliegue, tareas asíncronas, seguridad, proyectos reales y mucho más.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Python básico",
+            "SQL Básico",
+            "Control de versiones con Git"
+        ],
+        "topics": [
+            "Fundamentos y Tipado: Introducción a FastAPI, tipado estricto y validaciones robustas con Pydantic.",
+            "Validación Avanzada: Control estricto de parámetros de ruta (Path) y parámetros de consulta (Query params).",
+            "Persistencia de Datos: Conexión y manipulación de bases de datos relacionales con SQLAlchemy y SQLModel.",
+            "Migraciones de Datos: Gestión del ciclo de vida de la base de datos con Alembic y persistencia real en PostgreSQL.",
+            "Arquitectura Profesional: Modularización del código, routers y el poderoso sistema de Inyección de Dependencias de FastAPI.",
+            "Seguridad y Control: Implementación de autenticación segura mediante tokens JWT y desarrollo de Middlewares personalizados.",
+            "Rendimiento: Manejo y optimización de funciones síncronas y asíncronas (async/await).",
+            "Despliegue (Deploy): Configuración y puesta en producción de tu API final en Render.",
+            "¡Y cuestionarios teóricos al final de cada sección para consolidar lo aprendido!"
+        ]
+    },
+    {
+        "slug": "spring-boot",
+        "title": "Java: Spring Boot - Guía definitiva",
+        "summary": "Aprende Spring Boot desde cero: inicia con Spring MVC y Thymeleaf creando un sitio web dinámico con JdbcTemplate y controladores básicos. Luego desarrolla un API REST con seguridad, JPA, relaciones en BD y buenas prácticas MVC.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Idealmente: conocimientos en Java (nivel inicial y avanzado).",
+            "Mínimo indispensable: Java inicial y fundamentos de programación funcional.",
+            "De lo contrario, el curso podría resultar muy desafiante. ¿Aún no dominas Java?",
+            "Te recomendamos seguir nuestra Ruta de Aprendizaje de Java antes de avanzar a este curso."
+        ],
+        "topics": [
+            "Arquitectura y Patrones: Implementación limpia de DTOs automatizados utilizando MapStruct para desacoplar tus entidades de la capa de presentación.",
+            "Seguridad Avanzada: Protección robusta de endpoints mediante Spring Security combinada con la generación y validación de JSON Web Tokens (JWT).",
+            "Calidad y Documentación: Registro y depuración eficiente con sistemas de logging profesional (Logback) y documentación interactiva y auto-generada mediante OpenAPI (Swagger).",
+            "Estrategia de Testing: Introducción práctica al testing de software escribiendo tus primeras pruebas unitarias con Mockito para aislar la lógica de negocio, y pruebas de integración con MockMvc para validar tus controladores dentro del contexto de Spring.",
+            "DevOps y Despliegue: Preparación de tus aplicaciones para entornos reales containerizándolas con Docker y Docker Compose, garantizando la consistencia del entorno para finalmente desplegarlas en la nube con plataformas como Render."
+        ]
+    },
+    {
+        "slug": "n8n-mcp",
+        "title": "n8n + MCP: Automatización y agentes de IA inteligentes",
+        "summary": "Aprende a crear automatizaciones poderosas con n8n: desde flujos simples con Google Sheets y correos, hasta proyectos avanzados con lógica, manejo de errores y agentes de IA usando MCPs, tanto localmente como en la nube.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "No se necesita experiencia previa en automatización o IA, el curso comienza desde lo básico y avanza paso a paso.",
+            "Conocimientos básicos de informática y manejo de aplicaciones en la web son recomendables, pero no obligatorios.",
+            "Contar con un ordenador e internet estable para instalar n8n localmente o trabajar en su versión web."
+        ],
+        "topics": [
+            "1. Fundamentos y Flujos en n8n: Instalación y configuración del entorno de trabajo de n8n.",
+            "1. Fundamentos y Flujos en n8n: Uso y dominio de nodos esenciales: Google Sheets, Gmail, HTTP Request y lógica de filtros.",
+            "1. Fundamentos y Flujos en n8n: Estructuración de flujos robustos y escalables mediante formularios, validaciones de datos, ciclos (loops) y persistencia en bases de datos PostgreSQL.",
+            "2. Extracción de Datos e Inteligencia Artificial: Técnicas de Web Scraping para extraer información de internet de forma automática.",
+            "2. Extracción de Datos e Inteligencia Artificial: Integración de modelos LLM para la creación de chatbots, asistentes virtuales y flujos inteligentes de toma de decisiones.",
+            "2. Extracción de Datos e Inteligencia Artificial: Implementación de sistemas RAG (Retrieval-Augmented Generation) utilizando PostgreSQL y Google Drive para realizar consultas avanzadas sobre bases de conocimiento.",
+            "3. Agentes Autónomos con MCP (Model Context Protocol): Integración profunda de MCP Servers y herramientas personalizadas (Custom Tools).",
+            "3. Agentes Autónomos con MCP (Model Context Protocol): Construcción de agentes de IA con la capacidad de conectarse e interactuar dinámicamente con servicios externos bajo el estándar MCP.",
+            "4. Canales de Comunicación y Despliegue: Creación e implementación de agentes de voz y bots interactivos para Telegram y WhatsApp.",
+            "4. Canales de Comunicación y Despliegue: Estrategias profesionales de despliegue en la nube utilizando plataformas como Render y Railway.",
+            "4. Canales de Comunicación y Despliegue: Buenas prácticas de seguridad, protección de endpoints y autenticación (Basic Auth, JWT y firma de headers)."
+        ]
+    },
+    {
+        "slug": "react-de-cero",
+        "title": "React: de cero a experto",
+        "summary": "En este curso de React aprenderás desde los fundamentos de la librería hasta aspectos técnicos avanzados y despliegues, incorporando librerías adicionales ampliamente utilizadas en la industria. Todo el contenido está basado en TypeScript.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimiento básico de JavaScript es necesario",
+            "Conocimiento básico de programación es necesario",
+            "Poder realizar instalaciones en el equipo como administrador",
+            "Pueden seguir el curso en OSX (Mac), Windows o Linux",
+            "Estar dispuesto a realizar las tareas y ejercicios adicionales"
+        ],
+        "topics": [
+            "Core de React \u0026 Estado: React en profundidad, Context API, HOC (Higher-Order Components) y gestión de estado moderno y ligero con Zustand.",
+            "Fullstack MERN Stack: Conexión avanzada construyendo aplicaciones completas con MongoDB, Express, React y Node.js, integrando Mongoose, encriptación de contraseñas y despliegues controlados con Docker.",
+            "Enrutamiento Profesional: Navegación y arquitecturas de layouts dinámicos con React Router v7+, manejo de QueryStrings e historial.",
+            "Diseño de Interfaces Modernas: Maquetación veloz y elegante utilizando Tailwind CSS, ShadCN, componentes interactivos con animaciones y diseño asistido por IA.",
+            "Seguridad y Autenticación: Implementación de flujos de acceso personalizados y login social con Google Sign-in, respaldados por tokens JWT con revalidación automática.",
+            "Especialización en Testing Automatizado: Pruebas especializadas en Componentes, Context y Custom Hooks.",
+            "Especialización en Testing Automatizado: Manejo avanzado de Mocks, Spies y Snapshots.",
+            "Especialización en Testing Automatizado: Pruebas de integración sobre Fetching de datos, flujos de autenticación, Redux Toolkit y Zustand."
+        ]
+    },
+    {
+        "slug": "expo-gemini",
+        "title": "Expo + Gemini: Aplicaciones con inteligencia artificial",
+        "summary": "En este curso aprenderás a integrar la inteligencia artificial de Gemini usando la librería oficial y conectándola, a través de un backend personalizado, con nuestra aplicación de Expo.",
+        "areas": [
+            "móvil",
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de JavaScript o TypeScript.",
+            "Experiencia previa con React Native o React.",
+            "Tener los simuladores un un dispositivo físico para probar la aplicación."
+        ],
+        "topics": [
+            "Interfaz de Chat Avanzada: Diseñar una UI de chat moderna y fluida en React Native, aprovechando componentes funcionales, hooks avanzados y buenas prácticas de diseño móvil.",
+            "Respuestas en Tiempo Real (Streaming): Implementar la Messages API para recibir respuestas de texto letra por letra en modo stream, optimizando drásticamente la experiencia del usuario.",
+            "Procesamiento Multimodal (Imágenes): Enviar y procesar imágenes desde la cámara o galería del dispositivo utilizando fetch, FormData y manejo nativo de URIs y Blobs de archivos.",
+            "Historial y Contexto: Mantener el contexto conversacional de la IA a lo largo de múltiples turnos de manera eficiente.",
+            "Generación y Edición de Imágenes: Conectar con los modelos de Gemini para la creación de contenido visual bajo demanda directamente en la app.",
+            "Structured Outputs en Mobile: Forzar respuestas en formato JSON estructurado para crear casos de uso personalizados, como generadores automáticos de trivias y cuestionarios."
+        ]
+    },
+    {
+        "slug": "java-avanzado",
+        "title": "Java avanzado: reactividad, concurrencia y patrones",
+        "summary": "Lleva tus bases de Java al siguiente nivel: código limpio, funcional y concurrente. Aprende Streams, RxJava, bases de datos, patrones y más. Incluye proyectos prácticos y bonus de Spring MVC. ¡Ideal para quienes buscan excelencia en su código!",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Haber completado un curso inicial de Java o dominar sus fundamentos (POO, colecciones, excepciones)",
+            "Conocimientos básicos de desarrollo con IntelliJ IDEA.",
+            "Diseñado para quienes desean explorar nuevas formas de programar y estructurar sus proyectos",
+            "Acceso a internet para descargar recursos y librerías externas."
+        ],
+        "topics": [
+            "Genéricos avanzados: Diseño e implementación de estructuras reutilizables (listas, pilas, colas) sin duplicar código y garantizando seguridad de tipos.",
+            "Arquitectura y Productividad: Repaso del patrón MVC (Modelo-Vista-Controlador) y optimización del código utilizando las anotaciones profesionales de Lombok.",
+            "Programación Funcional y Expresividad: Dominio absoluto de expresiones Lambda, la API de Streams, uso de Records e interfaces funcionales. Además, aprenderás a erradicar los errores de puntero nulo usando Optional\u003cT\u003e.",
+            "Hilos y Concurrencia: Desde el manejo básico de Thread hasta la orquestación avanzada con ExecutorService y técnicas de programación paralela.",
+            "Programación Reactiva: Flujos de datos y eventos asíncronos utilizando RxJava y patrones de diseño observables.",
+            "Persistencia de Datos con JDBC: Conexión manual y segura a bases de datos, implementación del patrón DAO, gestión estricta de transacciones y configuración de Connection Pools.",
+            "Patrones de Diseño GoF y UML: Comprensión práctica de patrones esenciales como Strategy, Singleton, Observer, Decorator, Builder y más, respaldados por diagramas estructurales.",
+            "Manejo de Tiempo: Dominio de la API moderna java.time y su correcta serialización e integración con formatos JSON y JDBC.",
+            "Introducción a Spring Boot: Tu primer paso hacia el framework líder del mercado, creando una aplicación web con controladores, renderizado con Thymeleaf y su respectivo despliegue en la nube."
+        ]
+    },
+    {
+        "slug": "NET-Backend",
+        "title": ".NET Backend: .NET Core, SQL Server y seguridad JWT",
+        "summary": "Construye desde cero una API RESTful profesional en .NET para un e-commerce real. Aprende sobre JWT, Entity Framework, control de acceso, subida de imágenes, cache, versionado y despliegue en la nube.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Tener conocimientos básicos de programación (estructuras de control, variables, métodos, clases).",
+            "Haber trabajado previamente con C# o completado un curso introductorio.",
+            "Conocimientos básicos sobre HTTP y JSON.",
+            "Visual Studio Code instalado y configurado con .NET 8.",
+            "Acceso a internet para instalar paquetes NuGet y realizar pruebas con herramientas externas como Postman."
+        ],
+        "topics": [
+            "Estructura y Proyecto Base: Inicialización y configuración profesional del entorno de desarrollo utilizando .NET 8.",
+            "Modelado y Persistencia: Implementación y relación de entidades críticas del sistema (Categorías, Productos y Usuarios) aplicando el patrón Repositorio para garantizar una correcta separación de responsabilidades.",
+            "Diseño de Endpoints RESTful: Construcción de rutas estandarizadas, manejo de códigos de estado HTTP adecuados y validaciones robustas de datos de entrada.",
+            "Seguridad y Control de Acceso: Autenticación de usuarios mediante JSON Web Tokens (JWT), autorización basada en roles (RBAC) y configuración fina de políticas de CORS para conexiones externas seguras.",
+            "Gestión de Usuarios con Identity: Implementación avanzada del ecosistema ASP.NET Core Identity para un manejo robusto de registros, credenciales y flujos de acceso.",
+            "Rendimiento y Escalabilidad: Integración de estrategias de Caché para acelerar los tiempos de respuesta y reducir la carga del servidor, junto con técnicas de Paginación de datos.",
+            "Mantenimiento y Evolución: Implementación de Versionado de API para garantizar la compatibilidad a largo plazo del software sin romper integraciones existentes.",
+            "Servicios Auxiliares y Despliegue: Mecanismos para la subida y gestión de archivos/imágenes, generación de datos iniciales (seeding) y publicación final del proyecto en la nube para entornos de producción."
+        ]
+    },
+    {
+        "slug": "django",
+        "title": "Django: Crea aplicaciones web robustas con Python",
+        "summary": "Aprende Django desde cero con este curso práctico. Crea sitios web, conecta bases de datos, desarrolla APIs REST y publica tu proyecto. Ideal para convertirte en desarrollador web backend con Django.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de Python",
+            "Conocimientos básicos de HTML, CSS y JS",
+            "Conocimientos básicos de SQL (No obligatorio pero deseable)",
+            "Poder realizar instalaciones en el equipo como administrador",
+            "Usar sistema operativo Mac (OSx), Windows o Linux",
+            "Ganas de aprender una tecnología desde cero",
+            "Compromiso para mejorar carrera profesional y hacer los ejercicios, proyectos realizados en el curso."
+        ],
+        "topics": [
+            "Enrutamiento y Control: Manejo avanzado de URLs y mapeo de peticiones HTTP en el backend.",
+            "Vistas Flexibles: Dominio de las dos filosofías de Django: Function Based Views (FBVs) y Class Based Views (CBVs) para reutilizar código de forma eficiente.",
+            "Capa de Presentación: Creación de interfaces dinámicas e interactivas utilizando el motor de Templates de Django.",
+            "Persistencia de Datos (ORM): Creación de modelos, relaciones y migraciones de bases de datos sin necesidad de escribir SQL manual.",
+            "Django Admin: Configuración y personalización del panel de administración nativo, una de las herramientas más potentes del framework.",
+            "Seguridad y Filtros: Implementación de flujos de autenticación de usuarios y desarrollo de Middlewares para interceptar y procesar peticiones de forma global.",
+            "¡Y muchas cosas más a lo largo de las secciones prácticas!"
+        ]
+    },
+    {
+        "slug": "Flutter-Gemini",
+        "title": "Flutter + Gemini: Aplicaciones con inteligencia artificial",
+        "summary": "Aprende a trabajar con la inteligencia artificial de Google Gemini y su SDK nativo, siguiendo buenas prácticas y recomendaciones de la documentación oficial.",
+        "areas": [
+            "móvil",
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de Flutter (widgets, navegación, estado).",
+            "Conocimientos básicos de node o APIs es recomendado.",
+            "Tener Flutter instalado y un entorno de desarrollo como VS Code.",
+            "Conocimientos básicos de HTTP y consumo de APIs REST.",
+            "Se recomienda, pero no es obligatorio, experiencia previa trabajando con algún gestor de estado de Flutter."
+        ],
+        "topics": [
+            "Interfaz de Chat Avanzada: Crear una interfaz de chat moderna en Flutter utilizando Riverpod (con anotaciones) para una gestión de estado limpia, reactiva y eficiente.",
+            "Ecosistema Backend: Conectar tu app móvil a Gemini AI a través de una API intermedia robusta construida con NestJS.",
+            "Respuestas en Tiempo Real (Stream): Implementar respuestas por stream para mostrar la información en tiempo real, mejorando drásticamente la experiencia de usuario.",
+            "Procesamiento de Archivos: Enviar y procesar imágenes de forma efectiva entre Flutter y NestJS.",
+            "Historial y Contexto: Mantener el contexto de la conversación de forma lógica a lo largo de múltiples turnos.",
+            "Generación Visual: Generar y editar imágenes aprovechando las capacidades multimodales de Gemini.",
+            "Structured Outputs: Crear casos de uso personalizados como generadores de trivias con respuestas estructuradas directamente en formato JSON."
+        ]
+    },
+    {
+        "slug": "react-router",
+        "title": "React Router: Navegación declarativa y framework",
+        "summary": "Aprende a trabajar con React Router tanto como librería para proyectos tipo SPA o trabajarlo cómo Framework y obtener el máximo provecho de server actions, route modules, pre-rendering y mucho más!",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de React: Saber usar useState, useEffect, props y componentes funcionales.",
+            "Experiencia previa con JavaScript (al menos las bases): Entender conceptos como funciones flecha, async/await y módulos ES6.",
+            "Familiaridad con HTML, CSS y herramientas como Vite o npm: Poder iniciar proyectos, instalar paquetes y aplicar estilos básicos"
+        ],
+        "topics": [
+            "Doble Enfoque Arquitectónico: Implementación de React Router como librería para SPAs tradicionales o como framework para aplicaciones empresariales de alto rendimiento.",
+            "Route Modules \u0026 Server Actions: Estructuración de páginas eficientes y manejo nativo de mutaciones de datos directamente en el servidor sin necesidad de APIs intermedias manuales.",
+            "Optimización de Rendimiento: Implementación de cargas asíncronas con Loaders del lado del servidor y estrategias avanzadas de Pre-rendering para maximizar el SEO y la velocidad de carga.",
+            "Seguridad y Sesiones: Configuración de layouts protegidos, middlewares de enrutamiento y gestión robusta del ciclo de vida de las sesiones de usuario.",
+            "DevOps y Contenerización: Preparación de tu aplicación final para el mundo real, aprendiendo a estructurar y construir una imagen de Docker profesional lista para producción."
+        ]
+    },
+    {
+        "slug": "python",
+        "title": "Python: Fundamentos hasta los detalles",
+        "summary": "Aprende las bases de Python: variables, estructuras de control, ciclos, funciones, POO, errores, módulos y entornos virtuales. Ideal para principiantes o quienes desean reforzar conceptos con ejemplos prácticos y aplicar Python en distintas áreas.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "No se necesita experiencia previa en programación.",
+            "Tener una computadora con Windows, macOS o Linux.",
+            "Acceso a internet para instalar Python y un editor de código como VSCode.",
+            "Curiosidad y disposición para resolver problemas prácticos con código."
+        ],
+        "topics": [
+            "Bases de Python",
+            "Variables",
+            "Tipos de datos",
+            "Strings y String Indexes",
+            "Inmutabilidad y Conversiones",
+            "Operadores matemáticos, lógicos, de comparación y de pertenencia",
+            "Input y Condicionales (IF, ELIF y ELSE)",
+            "Short Circuiting",
+            "Listas, Diccionarios, Tuplas y Sets",
+            "Loops (FOR y WHILE)",
+            "Funciones",
+            "Programación Orientada a Objetos: Clases abstractas, Abstracción, Encapsulación, Polimorfismo y Herencia",
+            "Manejo de errores",
+            "Librerías, paquetes y módulos",
+            "Entornos virtuales",
+            "Manejo de archivos",
+            "Y más..."
+        ]
+    },
+    {
+        "slug": "csharp",
+        "title": "C#: Empieza tu camino en el lenguaje",
+        "summary": "Aprende C# desde cero, domina desde la sintaxis básica, estructuras de control y POO, manejo de excepciones, LINQ y manejo de archivos JSON, arquitectura MVC e introducción a desarrollo api web con ASP.NET Core.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "No se necesita experiencia previa en C#",
+            "Se recomienda una noción básica de programación (variables, condicionales, bucles)",
+            "Tener instalado Visual Studio Code y .NET 8 (el curso guía este proceso)",
+            "Ganas de aprender con ejercicios prácticos y construir proyectos reales"
+        ],
+        "topics": [
+            "Aplicaciones de consola",
+            "Sintaxis básica",
+            "Estructuras de control",
+            "Programación orientada a objetos",
+            "Manejo de excepciones",
+            "Consultas de datos con LINQ",
+            "Manejo de archivos JSON",
+            "Desarrollo de APIs web con ASP.NET Core"
+        ]
+    },
+    {
+        "slug": "Java",
+        "title": "Java: Explora el lenguaje desde cero",
+        "summary": "Aprende Java desde cero, dominando la sintaxis, POO, estructuras de datos y manejo de excepciones. Explora la jerarquía de clases, colecciones, archivos y el uso de patrones como MVC.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "Solo necesitas una computadora con Windows, macOS o Linux",
+            "Ganas de aprender y de practicar con ejemplos reales",
+            "Acceso a internet para descargar IntelliJ IDEA y el JDK de Java",
+            "Nociones básicas de programación estructurada"
+        ],
+        "topics": [
+            "Este curso te lleva de la mano por todo lo que necesitas para convertirte en un programador Java competente: Configuración del entorno (IntelliJ IDEA, JDK en Windows y macOS)",
+            "Este curso te lleva de la mano por todo lo que necesitas para convertirte en un programador Java competente: Fundamentos del lenguaje: variables, operadores, control de flujo, bucles y más",
+            "Este curso te lleva de la mano por todo lo que necesitas para convertirte en un programador Java competente: Programación Orientada a Objetos (POO): clases, objetos, herencia, polimorfismo, interfaces y enums",
+            "Este curso te lleva de la mano por todo lo que necesitas para convertirte en un programador Java competente: Estructuras de datos y colecciones: arrays, ArrayList, LinkedList, HashSet, TreeMap y más",
+            "Este curso te lleva de la mano por todo lo que necesitas para convertirte en un programador Java competente: Manejo de excepciones: cómo evitar que tu aplicación crashee y debuggear errores como un pro",
+            "Este curso te lleva de la mano por todo lo que necesitas para convertirte en un programador Java competente: Trabajo con JSON: serialización, deserialización y validación con Gson",
+            "Este curso te lleva de la mano por todo lo que necesitas para convertirte en un programador Java competente: Patrón MVC: aplica este diseño profesional para organizar tus proyectos",
+            "Este curso te lleva de la mano por todo lo que necesitas para convertirte en un programador Java competente: Bonus: Lombok – Simplifica tu código y evita boilerplate"
+        ]
+    },
+    {
+        "slug": "NestJS-Testing",
+        "title": "NestJS + Testing: Pruebas unitarias y end to end (e2e)",
+        "summary": "Aquí aprenderán a realizar pruebas unitarias, integración y de extremo a extremo (E2E) de sus aplicaciones hechas en NestJS utilizando Jest, siguiendo estándares recomendados.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Conocimiento de NestJS previo es necesario",
+            "No es un curso para aprender NestJS",
+            "Conocer qué es un Restful API sería útil",
+            "No es necesario saber sobre pruebas automáticas o Jest",
+            "Conocimiento de TypeScript sería ideal"
+        ],
+        "topics": [
+            "Configuración completa para pruebas en NestJS con Jest.",
+            "Creación de pruebas unitarias para controladores, servicios, módulos y decoradores personalizados.",
+            "Estrategias efectivas para manejar excepciones y mocks utilizando SpyOn y mockImplementation.",
+            "Desarrollo de pruebas E2E para asegurar el correcto funcionamiento de las APIs RESTful.",
+            "Generación de informes de cobertura de código.",
+            "Casos prácticos con autenticación, carga de archivos, gestión de productos y más.",
+            "Mejores prácticas para lograr una cobertura de pruebas del 100%.",
+            "Ejemplos prácticos aplicados en dos proyectos reales Tareas guiadas para reforzar cada sección.",
+            "Pruebas de autenticación y autorización.",
+            "Testing sobre interacciones con bases de datos y carga de archivos.",
+            "Código fuente completo en cada sección.",
+            "Explicaciones claras y detalladas de cada concepto."
+        ]
+    },
+    {
+        "slug": "angular-moderno",
+        "title": "Angular: De cero a experto",
+        "summary": "Aprende Angular en profundidad con el nuevo paradigma Zoneless basado en señales. Comienza desde cero y realiza ejercicios prácticos para dominar lo necesario y crear aplicaciones con este framework.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Saber JavaScript básico",
+            "Conocimiento básico de programación",
+            "No es necesario saber TypeScript pero ayudaría",
+            "No es necesario conocimiento alguno de Angular u otras versiones"
+        ],
+        "topics": [
+            "Bases de TypeScript y ESCMAScript",
+            "\"Hola mundo\" en Angular",
+            "Componentes",
+            "Interceptores",
+            "Servicios",
+            "Aplicaciones sin módulos (Y explicación de como integrar módulos)",
+            "Todos los pipes de Angular",
+            "Rutas y Rutas Hijas",
+            "Carga perezosa o Lazyload de componentes y funcionalidades",
+            "Guards y Protección de rutas",
+            "Autenticación mediante JsonWebTokens",
+            "Mapas",
+            "Uso de librerías de terceros escritas en Angular y NO escritas para Angular",
+            "Consumo de APIs y CRUD",
+            "SPA",
+            "Git y GitHub",
+            "Despliegues a producción",
+            "Carga de archivos",
+            "Diferentes diseños de aplicaciones",
+            "Tailwind y Bootstrap",
+            "Node",
+            "Reutilización de componentes y servicios",
+            "Comunicación entre componentes y módulos",
+            "Uso de extensiones reactivas",
+            "Deferrable Views y Triggers",
+            "Signals: Writable Signals Computed Signals Input Signals Output Signals LinkedSignals",
+            "Recursos: RxResource Resource",
+            "Efectos",
+            "Standalone components",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "patrones-diseno",
+        "title": "Patrones de Diseño: Soluciones prácticas y eficientes",
+        "summary": "Aprende 24 patrones de diseño clave para resolver problemas comunes y escribir código más limpio y escalable.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "Conocimiento básico de TypeScript es recomendado",
+            "Conocimiento de Programación orientada a objetos es recomendado",
+            "Poder realizar instalaciones en el equipo es necesario"
+        ],
+        "topics": []
+    },
+    {
+        "slug": "react-native-expo",
+        "title": "React Native Expo: Aplicaciones nativas para IOS y Android",
+        "summary": "Curso completo de React Native con Expo que te dará las bases sólidas sobre este framework, con más de 20 horas de contenido en video y despliegues en la Google PlayStore y Apple AppStore incluído en el curso.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimiento básico de React es necesario",
+            "No es necesario saber TypeScript (pero es recomendado)",
+            "No necesitas saber nada de React Native o React Native CLI",
+            "Es necesario poder realizar instalaciones como administrador",
+            "No es necesario Mac o un equipo especial"
+        ],
+        "topics": [
+            "TypeScript",
+            "EAS Build",
+            "Patrones de diseño",
+            "Autenticación con JWT",
+            "Storage: Secure y Local",
+            "Gestores de estado: Context y Zustand",
+            "Push Notifications: Enviar, recibir y crear backend propio para envío",
+            "Formularios y Formik",
+            "Native Wind",
+            "Temas light y dark personalizados",
+            "Paquetes de expo y de terceros",
+            "PreBuilds",
+            "Cámara, galería, media storage y más",
+            "Protección de rutas",
+            "Empaquetamiento",
+            "Google Play Store: Alphas, Betas y Subida",
+            "Apple AppStore: Sin Mac, TestFlight y App Store Connect",
+            "TanStack y manejo de caché local: Query y Mutation",
+            "Expo Router",
+            "Mapas, Geolocation y Rutas",
+            "CRUD y Peticiones HTTP",
+            "Reutilización de componentes",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "angular-pro",
+        "title": "Angular Pro: Lleva tus bases al siguiente nivel",
+        "summary": "Angular PRO, es un curso que llevará tu conocimiento de Angular al siguiente nivel con SSR, SSG, Testing, Zoneless, TanStack, optimizaciones y mucho más.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimiento básico de Angular es necesario",
+            "Poder realizar instalaciones como administrador",
+            "Poder subir repositorios a GitHub"
+        ],
+        "topics": [
+            "Zoneless y signals: Optimiza el rendimiento de tus aplicaciones con las nuevas capacidades de Angular, eliminando la dependencia de zone.js y utilizando señales para gestionar el estado.",
+            "Bindings avanzados: Domina las técnicas de enlace de datos para maximizar la eficiencia y la claridad de tu código.",
+            "Estructuras HTML: Aprenderemos a corregir y descubrir el porqué la generación de componentes en Angular no siempre respeta las estructuras HTML brindadas.",
+            "SSR y SSG: Implementa renderizado del lado del servidor (SSR) y generación de sitios estáticos (SSG) para mejorar la velocidad de carga y la optimización SEO.",
+            "SEO e i18n: Asegura que tus aplicaciones sean accesibles y eficientes para audiencias globales mediante prácticas avanzadas de SEO e internacionalización.",
+            "Testing y calidad: Cubre desde pruebas unitarias hasta pruebas end-to-end utilizando Jasmine, Karma, y otras herramientas, asegurando que tu código sea robusto y confiable.",
+            "TanStack: Integra poderosas bibliotecas de manejo de datos con Angular para una gestión avanzada de estados y datos.",
+            "Monorepos y paquetes personalizados: Aprende a organizar y gestionar proyectos utilizando monorepos, y crea paquetes personalizados para optimizar la modularidad y reutilización de código.",
+            "NPM y gestión de dependencias: Explora estrategias avanzadas para gestionar tus dependencias y usar tus propios paquetes junto a inyecciones de dependencias manuales con tokes de inyección propia."
+        ]
+    },
+    {
+        "slug": "Astro",
+        "title": "Astro: El framework para sitios web orientados al contenido",
+        "summary": "Framework de desarrollo web diseñado para construir sitios web rápidos y eficientes con las tecnologías que ya conoces.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimiento básico de JavaScript es necesario",
+            "Conocimiento básico de maquetación HTML y CSS (recomendado)",
+            "Saber TypeScript no es necesario (pero es de utilidad)"
+        ],
+        "topics": [
+            "Sintaxis de Astro",
+            "Estructura y tipado estricto",
+            "TypeScript con Astro",
+            "Navegación y parámetros de ruta",
+            "Protección de rutas y Middlewares",
+            "Renderización: Server Side Client Side Static Side Hybrid",
+            "Peticiones HTTP: En momento de construcción y en momento de ejecución",
+            "Scripts en Vanilla JS y TS",
+            "Drag \u0026 Drop sin librerías ni islas",
+            "Integraciones con: Cloudflare, Netlify, Node, React, Astro DB, Tailwind, Vue y Solid.js",
+            "View Transitions y Cero JS View Transitions",
+            "Nanostores y Persistencia de estado de las islas",
+            "Paginación estática y paginación dinámica",
+            "Markdown y MDX",
+            "Estilos condicionales y Tailwindcss",
+            "SEO Friendly y Optimización de imágenes",
+            "Restful API endpoints",
+            "Server actions y Form Multipart con server actions",
+            "Zod",
+            "Astro DB: Relaciones y CRUD",
+            "Despliegues a producción y Carga de archivos",
+            "Google SignIn, AuthJS, Autenticación y autorización",
+            "Mucho más..."
+        ]
+    },
+    {
+        "slug": "nestjs-reportes",
+        "title": "NestJs + Reportes: Genera PDFs desde Node",
+        "summary": "Crea reportes en PDF utilizando NestJS. Aprenderás a integrar y utilizar Pdfmake y ChartJS para generar reportes profesionales y personalizados.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Conocimiento básico de Nest es necesario",
+            "Conocimiento básico de JavaScript y TypeScript es recomendado"
+        ],
+        "topics": [
+            "PdfMake",
+            "NestJS",
+            "Configuración de fuentes (Como Roboto)",
+            "Diseños de reportes personalizados",
+            "Diseños y temas para tablas",
+            "Reutilización de estilos y secciones",
+            "Gráficos con Chart.js",
+            "Tomar HTML y generar reportes",
+            "Códigos QR",
+            "Conexión a base de datos con Prisma",
+            "PostgreSQL para extracción de data",
+            "Docker",
+            "PgAdmin",
+            "Uso de SVGs e imágenes",
+            "Diseño de columnas y filas",
+            "Y mucho más...",
+            "Los reportes que haremos son: Constancia laboral con conexión (con conexión a base de datos)",
+            "Los reportes que haremos son: Listado de países en formato de tabla (con conexión a base de datos)",
+            "Los reportes que haremos son: Recibo de compra con código QR - Maestro - detalle",
+            "Los reportes que haremos son: Múltiples relaciones e inner joins (con conexión a base de datos)",
+            "Los reportes que haremos son: Reporte con estadísticas y gráficas (con conexión a base de datos parcialmente)",
+            "Los reportes que haremos son: Reporte para transformar HTML complejo a PDF",
+            "Los reportes que haremos son: Clonar la idea de un reporte existente a PdfMake",
+            "Los reportes que haremos son: Reporte con tamaño personalizado"
+        ]
+    },
+    {
+        "slug": "shadcn-ui",
+        "title": "Shadcn/ui: Componentes accesibles y personalizables",
+        "summary": "Una librería de componentes diferente, que te da control absoluto sobre cada pieza que importes en tu proyecto, aprende a usarla y configurarla en este curso.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de React y TypeScript:Saber crear componentes, usar props y hooks como useState.",
+            "Familiaridad con Tailwind CSS:Haber trabajado con clases utilitarias para estilos.",
+            "Entorno de desarrollo configurado (Node.js + npm/yarn):Poder instalar paquetes y ejecutar proyectos locales.",
+            "Experiencia básica con formularios y tablas en React:Saber manejar inputs, validaciones o manipular listas de datos."
+        ],
+        "topics": [
+            "Configuración y uso de Shadcn/ui",
+            "Ecosistema de Tailwind CSS para diseño avanzado",
+            "Componentes listos para producción",
+            "Construcción de un Dashboard completo",
+            "Integración de formularios y componentes interactivos",
+            "Tablas dinámicas con filtros avanzados",
+            "Aplicación de temas oscuros y personalizados",
+            "Estrategias de desarrollo en proyectos reales y escalables"
+        ]
+    },
+    {
+        "slug": "vue-cero-a-experto",
+        "title": "Vue.js - de Cero a Experto: Composition Api",
+        "summary": "Nueva entrega renovada del curso que se enfoca plenamente en el Composition Api, TypeScript y Vitest para crear aplicaciones modernas.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimiento de programación básica",
+            "Conocimiento de JavaScript básico",
+            "Poder realizar instalaciones en el equipo",
+            "El curso se puede seguir en Window, Linux o Mac OSx",
+            "Conocimiento de TypeScript es opcional pero recomendado"
+        ],
+        "topics": [
+            "Aplicaciones modernas: Desarrollo de interfaces dinámicas utilizando componentes reutilizables y Composition API.",
+            "Autenticación y seguridad: Implementación de flujos de autenticación, protección de rutas y manejo de sesiones.",
+            "Formularios y carga de archivos: Validación de formularios, imágenes y manejo eficiente de archivos.",
+            "Arquitectura profesional: Organización de proyectos pequeños, medianos y de gran escala siguiendo buenas prácticas.",
+            "Despliegue a producción: Configuración de entornos de Development, Test y Production para publicar aplicaciones listas para el mundo real.",
+            "Vue progresivo y arquitectura basada en componentes.",
+            "Directivas, eventos y modificadores.",
+            "Composition API y Script Setup.",
+            "Options API (para comprender su funcionamiento).",
+            "Pinia: State, Actions, Getters y módulos.",
+            "Axios, Fetch API e interceptores.",
+            "Autenticación y Vue Router.",
+            "Lazy Loading y diferentes estructuras con Layouts.",
+            "Pruebas unitarias y de integración con mocks y spies.",
+            "Composable Functions.",
+            "Tailwind CSS.",
+            "Comunicación entre componentes.",
+            "Carga y validación de imágenes.",
+            "Despliegue de aplicaciones a producción.",
+            "Y muchos temas más."
+        ]
+    },
+    {
+        "slug": "nestjs-microservicios",
+        "title": "NestJS + Microservicios: Aplicaciones escalables y modulares",
+        "summary": "Es momento de crear un sistema distribuido utilizando múltiples bases de datos, transportadores y técnicas para escalar de forma independiente cada microservicio.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Conocimiento de TypeScript es necesario",
+            "Conocimiento básico de NestJS es requerido",
+            "Es un curso para personas que han creado API Rest anteriormente"
+        ],
+        "topics": [
+            "Arquitectura: Monolitos vs. microservicios, comunicación entre servicios y Gateways.",
+            "NestJS Microservices: Paquetes oficiales, Message Patterns y manejo de excepciones.",
+            "Transportadores: TCP, HTTP y NATS.",
+            "Control de versiones: Git Submodules y Git Organizations.",
+            "Persistencia: CRUDs, múltiples bases de datos, Prisma, modelos y relaciones.",
+            "Consultas avanzadas: Filtros, paginación y estructuras maestro-detalle para órdenes y detalles de orden.",
+            "Contenedores y despliegue: Dockerización, Kubernetes, Google Cloud y Google Kubernetes Engine (GKE).",
+            "Infraestructura: Registros privados para artefactos en Google Cloud, manejo de variables de entorno y secretos de Google.",
+            "Automatización: Integración continua y despliegue continuo (CI/CD).",
+            "Pagos: Integración con Stripe y manejo de Webhooks.",
+            "Otros conceptos: Proxys y muchas herramientas adicionales utilizadas en proyectos reales."
+        ]
+    },
+    {
+        "slug": "openai-angular-nestjs",
+        "title": "OpenAI: Ejercicios y asistentes con Angular + NestJS",
+        "summary": "En este curso práctico de OpenAI, aprenderás la librería de OpenAI en Node, para consumir desde un frontend en Angular, y así consultar información, generar imágenes, editar, generar audio basado en texto, texto a audio, configurar tu asistente y más",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimiento de JavaScript",
+            "Saber TypeScript es opcional, pero recomendado",
+            "Conocimiento básico de Node",
+            "Conocimiento de Nest es recomendado pero no obligatorio",
+            "Conocer sobre la sintaxis de Angular"
+        ],
+        "topics": [
+            "Procesamiento de audio: Generación de audios a partir de texto y conversión de audio a texto.",
+            "Subtítulos: Transcripciones y traducciones automáticas a diferentes idiomas.",
+            "Manejo de archivos: Carga de archivos al backend para ser procesados por OpenAI.",
+            "Generación de imágenes: Creación de nuevas imágenes, variaciones y edición mediante máscaras utilizando inteligencia artificial.",
+            "Generación de contenido: Consultas inteligentes sobre cualquier tema utilizando los modelos de OpenAI.",
+            "Asistentes personalizados: Entrenamiento con material propio, personalización de comportamiento, instrucciones y consumo de su API.",
+            "Assistant API: Creación de threads, mensajes, runs, ejecución de procesos y lectura de respuestas.",
+            "Backend personalizado: Desarrollo y consumo de una API propia en NestJS para administrar asistentes de OpenAI."
+        ]
+    },
+    {
+        "slug": "openai",
+        "title": "OpenAI: Ejercicios prácticos y asistentes con React + NestJS",
+        "summary": "En este curso práctico de OpenAI, aprenderás la librería de OpenAI en Node, para consumir desde un frontend en React, y así consultar información, generar imágenes, editar, generar audio basado en texto, texto a audio, configurar tu asistente y más.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimiento de JavaScript",
+            "Saber TypeScript es opcional, pero recomendado",
+            "Conocimiento básico de Node",
+            "Conocimiento de Nest es recomendado pero no obligatorio",
+            "Haber trabajado con React con Hooks"
+        ],
+        "topics": [
+            "Procesamiento de audio: Generación de audios a partir de texto y conversión de audio a texto.",
+            "Subtítulos: Transcripciones y traducciones automáticas a diferentes idiomas.",
+            "Manejo de archivos: Carga de archivos al backend para ser procesados por OpenAI.",
+            "Generación de imágenes: Creación de nuevas imágenes, variaciones y edición mediante máscaras utilizando inteligencia artificial.",
+            "Generación de contenido: Consultas inteligentes sobre cualquier tema utilizando los modelos de OpenAI.",
+            "Asistentes personalizados: Entrenamiento con material propio, personalización de comportamiento, instrucciones y consumo de su API.",
+            "Assistant API: Creación de threads, mensajes, runs, ejecución de procesos y lectura de respuestas.",
+            "Backend personalizado: Desarrollo y consumo de una API propia en NestJS para administrar asistentes de OpenAI."
+        ]
+    },
+    {
+        "slug": "zustand-gestor-de-estado-para-react",
+        "title": "Zustand: Gestor de estado para React",
+        "summary": "Este gestor de estado apunta a ser un reemplazo directo a Redux, Redux Toolkit y el mismo Context API de React, ofreciendo funcionalidades similares a Redux sin tener que construir tanto código base para hacerlo funcionar.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimiento de React con Hooks es necesario",
+            "Saber realizar peticiones HTTP con Fetch API o Axios",
+            "Saber TypeScript es opcional pero recomendado",
+            "No es necesario saber Tailwind, React Router, Dom o Docker"
+        ],
+        "topics": [
+            "Zustand como gestor de estado: Comparativa y reemplazo de Redux, Redux Toolkit y Context API.",
+            "Uso fuera de React: Implementación de Zustand más allá del ciclo de vida de los componentes.",
+            "TypeScript: Tipado estricto aplicado a stores y acciones.",
+            "Middlewares: Persist, Immer, DevTools, middlewares personalizados y loggers.",
+            "Persistencia: LocalStorage, SessionStorage personalizada y almacenamiento remoto utilizando Firebase.",
+            "Manejo avanzado del estado: Produce States, suscripciones de Stores y patrón Slices.",
+            "Custom Hooks: Creación de hooks reutilizables para consumir el estado de manera eficiente.",
+            "Autenticación: Manejo de sesiones, Axios Interceptors y protección de rutas.",
+            "Casos prácticos: Eventos Drag \u0026 Drop y desarrollo sobre un dashboard administrativo listo para utilizar.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "node-clean-architecture",
+        "title": "Node - Autenticación Rest con Clean Architecture",
+        "summary": "El curso está orientado a programadores en Node que deseen aprender a estructurar sus proyectos de forma lógica aplicando la arquitectura y casos de uso utilizando TypeScript.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de JavaScript o TypeScript: Entender funciones, clases, módulos y tipado básico.",
+            "Familiaridad con Node.js y Express: Haber creado rutas y manejado peticiones HTTP.",
+            "Experiencia básica con bases de datos: Conocer conceptos de modelos, esquemas y consultas simples."
+        ],
+        "topics": [
+            "Repository Pattern: Separación de la lógica de acceso a datos mediante una arquitectura desacoplada.",
+            "Arquitectura limpia: Organización del proyecto basada en responsabilidades y casos de uso.",
+            "MongoDB y Mongoose: Modelado y persistencia de información utilizando una base de datos NoSQL.",
+            "DTOs: Validación y transferencia de datos entre las distintas capas de la aplicación.",
+            "Autenticación: Registro, inicio de sesión y protección de rutas mediante JSON Web Tokens (JWT).",
+            "Inyección de dependencias: Desarrollo de aplicaciones más desacopladas, reutilizables y fáciles de mantener.",
+            "Manejo de errores: Creación de excepciones personalizadas y respuestas consistentes para la API.",
+            "Docker: Configuración del entorno de desarrollo para facilitar la ejecución y despliegue de la aplicación."
+        ]
+    },
+    {
+        "slug": "flutter-bloc",
+        "title": "Flutter BLoC",
+        "summary": "Este mini-curso sobre Flutter Bloc te enseñará a utilizar este gestor de estado de una forma organizada, pasando desde cubits, blocs simples y compuestos, pero también aprenderás a como comunicarlos entre sí.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de Flutter y Dart: Saber crear widgets, usar estados, y manejar estructuras comunes.",
+            "Familiaridad con el concepto de manejo de estado: Haber usado alguna solución como Provider, Riverpod, o setState de los stateful widgets.",
+            "Instalación funcional de Flutter en tu entorno local: Tener acceso al emulador o dispositivo físico para pruebas.",
+            "Conocimientos básicos de programación orientada a objetos: Entender clases, constructores y métodos en Dart."
+        ],
+        "topics": [
+            "Flutter Bloc y Cubit: Manejo de estado para aplicaciones modernas.",
+            "Arquitecturas escalables: Comunicación entre múltiples Blocs e inyección de dependencias.",
+            "Integraciones: GoRouter y manejo de ubicación en tiempo real.",
+            "Casos prácticos: Implementación de ejemplos reales paso a paso."
+        ]
+    },
+    {
+        "slug": "nodejs-de-cero-a-experto",
+        "title": "Node.Js: De cero a experto",
+        "summary": "Aprende Node.js desde los fundamentos, usos comunes y no tan comunes, despliegues, construcción de imágenes, testing y muchas más habilidades que son necesarias hoy en día con este runtime-environment de JavaScript.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Conocimiento de JavaScript es altamente recomendado",
+            "No es necesario saber TypeScript pero es útil",
+            "Poder realizar instalaciones en tu equipo",
+            "Es necesario tener bases de programación estructurada"
+        ],
+        "topics": [
+            "Node.js y TypeScript: Interfaces, clases, tipos y buenas prácticas.",
+            "Arquitectura: Clean Architecture, Domain Driven Design y Repository Pattern.",
+            "Bases de datos: MongoDB, PostgreSQL, Prisma y Mongoose.",
+            "Backend moderno: APIs REST, autenticación con JWT, middlewares y carga de archivos.",
+            "Comunicación en tiempo real: WebSockets y aplicaciones basadas en eventos.",
+            "Testing: Pruebas unitarias, de integración, mocks, spies y cobertura.",
+            "Integraciones: GitHub Webhooks, CRON Jobs, envío de correos, Axios y Bots de Discord.",
+            "Despliegue: Railway, Netlify Edge Functions y entornos de producción.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "riverpod-con-anotaciones",
+        "title": "Riverpod providers con anotaciones",
+        "summary": "Este curso está diseñado para enseñarte Riverpod con las anotaciones y generación de código. Si deseas aprender Riverpod de forma tradicional, también cuenta con información al respecto.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de Flutter y Dart: Saber construir interfaces, usar widgets y manejar el estado con setState.",
+            "Experiencia inicial con el concepto de providers o manejo de estado:Haber trabajado con Provider, Bloc, o alguna solución similar.",
+            "Entorno de desarrollo Flutter funcional:Poder correr proyectos localmente y tener acceso a simuladores o dispositivos.",
+            "Conocimientos básicos de programación asíncrona en Dart:Uso de Future, async/await, y Stream."
+        ],
+        "topics": [
+            "Fundamentos de Riverpod: Providers de solo lectura y con estado.",
+            "Providers avanzados: FutureProvider, StreamProvider, keepAlive e invalidación de providers.",
+            "Arquitectura reactiva: Gestión de dependencias y actualización automática del estado.",
+            "Proyecto práctico: Desarrollo de una aplicación de tareas con filtros dinámicos."
+        ]
+    },
+    {
+        "slug": "sql-con-postgres",
+        "title": "SQL de cero: Tu guía práctica con PostgreSQL",
+        "summary": "El objetivo es aprender sobre bases de datos relacionales partiendo desde cero, pasando por queries, triggers, procedimientos almacenados hasta optimizaciones.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Tener conocimiento de programación estructurada será útil en la parte de PL/pgSQL.",
+            "Conocimiento de Docker será útil, pero no es necesario.",
+            "Poder realizar instalaciones en el equipo es necesario."
+        ],
+        "topics": [
+            "Entorno de trabajo: Docker y Neon para ejecutar PostgreSQL.",
+            "SQL: Consultas, inserciones, actualizaciones, eliminaciones y transacciones.",
+            "Diseño de bases de datos: Diagramas entidad-relación, llaves y relaciones.",
+            "Consultas avanzadas: JOINs, subqueries, CTE, funciones de fecha, JSON y arreglos.",
+            "Optimización: Índices, constraints, checks y actualizaciones en cascada.",
+            "Programación: Funciones personalizadas, procedimientos almacenados y triggers.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "nextjs",
+        "title": "Next.js: El framework de React para producción",
+        "summary": "Next.js te brinda una excelente experiencia de desarrollo con todas las funciones que necesita para la producción: renderizado híbrido estático y de servidor, compatibilidad con TypeScript, agrupación inteligente, precarga de rutas y más.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimiento básico de React con Hooks es necesario",
+            "NO es necesario saber TypeScript (pero será útil)",
+            "NO es necesario saber Node (pero será útil)",
+            "NO es necesario saber Next para empezar este curso"
+        ],
+        "topics": [
+            "Next.js moderno: App Router, rutas dinámicas y estrategias de renderizado (ISR, SSR, SSG y CSR).",
+            "TypeScript: Integración completa y migración desde proyectos en JavaScript.",
+            "Backend: APIs REST, autenticación personalizada, JWT y NextAuth.",
+            "Bases de datos: MongoDB y PostgreSQL.",
+            "Estado y formularios: Zustand y React Hook Form.",
+            "UI: Material UI, NextUI y diseño responsivo.",
+            "Producción: Docker, despliegues automáticos, SEO y optimización de imágenes.",
+            "Pagos: Integración con PayPal y tarjetas de crédito.",
+            "Middlewares: Protección de rutas, autenticación y redirecciones.",
+            "Y mucho más...",
+            "Introducción a Next.js: Primer proyecto para comprender los fundamentos del framework.",
+            "PokemonApp: Implementación de ISR y SSG.",
+            "OpenJira: Aplicación para gestión de tareas utilizando SSR.",
+            "CookieMaster: Manejo avanzado de cookies.",
+            "TesloShop: Tienda en línea completa con autenticación, pagos, dashboard administrativo, carga de imágenes y optimización para producción."
+        ]
+    },
+    {
+        "slug": "qwik-introduccion",
+        "title": "Qwik: Introducción al Framework",
+        "summary": "El objetivo del curso es brindar una entrada robusta al nuevo framework qwik; cubre aspectos desde creación hasta despliegue, rutas, estados, peticiones http, SSR, reanudabilidad, integraciones con OpenAI y más",
+        "areas": [],
+        "prerequisites": [
+            "Conocimientos básicos de JavaScript y TypeScript: Saber trabajar con funciones, objetos, arreglos y tipos básicos.",
+            "Experiencia previa con React, Vue o algún framework web: Entender conceptos como componentes, props y manejo de estado.",
+            "Conocimientos básicos de HTML y CSS: Saber estructurar páginas y aplicar estilos con Tailwind (opcional).",
+            "Entorno de desarrollo configurado (Node.js + npm): Poder instalar dependencias, ejecutar scripts y trabajar en local."
+        ],
+        "topics": [
+            "Qwik y Qwik City: Fundamentos del framework y sistema de rutas.",
+            "TypeScript y Tailwind CSS: Desarrollo moderno con tipado y diseño responsivo.",
+            "Manejo de estado: Signals, Stores, Context API, Writable y Readonly Signals.",
+            "Componentes: Slots, Named Slots, Layouts y Nested Layouts.",
+            "Routing: Navegación, parámetros de URL y Query Parameters.",
+            "Formularios: Validaciones utilizando Zod.",
+            "Reactividad: useTask$, useVisibleTask$ y Custom Hooks.",
+            "Persistencia: Cookies, LocalStorage y proveedores.",
+            "Integraciones: OpenAI, modales y protección de rutas mediante cookies seguras.",
+            "Despliegue: GitHub y Railway."
+        ]
+    },
+    {
+        "slug": "flutter-movil-intermedio",
+        "title": "Flutter Móvil: Recursos Nativos - Nivel Intermedio",
+        "summary": "Este curso se enfoca en la utilización de recursos nativos del dispositivo móvil, que van desde el giroscopio, cámara, sensores, contactos, conexión a internet, deep-links y mucho más.",
+        "areas": [
+            "móvil"
+        ],
+        "prerequisites": [
+            "Conocimiento previo de Flutter es necesario",
+            "Conocimiento previo de Dart es requerido",
+            "Este curso no es ideal para aprender Flutter"
+        ],
+        "topics": [
+            "Flutter moderno: Riverpod, Dart Records y desestructuración.",
+            "Sensores: Giroscopio, magnetómetro y animación de brújulas.",
+            "Navegación: GoRouter y Deep Linking.",
+            "Procesos avanzados: Streams, Futures y tareas en segundo plano.",
+            "Permisos y seguridad: Biometría, Local Auth, Face ID, lectores de huellas y permisos del dispositivo.",
+            "Ubicación: Mapas, seguimiento en tiempo real y marcadores.",
+            "Persistencia: Isar y bases de datos locales.",
+            "Integraciones: AdMob, Share Plugins, Railway y Quick Actions.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "flutter-movil-cero-a-experto",
+        "title": "Flutter - Móvil: De cero a experto",
+        "summary": "El curso cubre todo lo necesario de Flutter para crear aplicaciones móviles para iOS y Android hasta su despliegue en las tiendas. Cuando termines el curso, habrás creado diferentes aplicaciones y comprender el proceso de publicación de las mismas.",
+        "areas": [
+            "móvil"
+        ],
+        "prerequisites": [
+            "Es necesario tener conceptos de programación estructurada y orientada a objetos",
+            "Si no tienes conocimiento en el requisito anterior, es recomendado mi curso de programación para principiantes",
+            "Puedes seguir el curso en Windows, Mac o Linux (Instalaciones y configuraciones en Mac y Windows incluídas)",
+            "Revisar los requisitos mínimos de Flutter dependiendo de tu sistema operativo en Flutter-dev"
+        ],
+        "topics": [
+            "Dart: Desde \"Hola Mundo\" hasta funciones generadoras, clases, mixins y programación orientada a objetos.",
+            "Flutter: Widgets, widgets personalizados y ciclo de vida de componentes.",
+            "Manejo de estado: Riverpod, Flutter Bloc, Cubits, Provider y Stateful Widgets.",
+            "Arquitectura: Domain Driven Design, Clean Code y buenas prácticas recomendadas por el equipo de Flutter.",
+            "Backend e integración: Docker, PostgreSQL, APIs REST, JWT, carga de imágenes y multipart.",
+            "Persistencia: Variables de entorno, Shared Preferences e ISAR.",
+            "Características móviles: Cámara, galería, videos, notificaciones Push (FCM/APNs), iconos y Splash Screens.",
+            "Navegación y UI: GoRouter, protección de rutas, formularios, validaciones, grids, Masonry y Pull to Refresh.",
+            "Publicación: Google Play, App Store, TestFlight y versiones Alpha/Beta.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "angular",
+        "title": "Angular clásico: con Módulos",
+        "summary": "Aprende Angular versión 2023 a profundidad, partiendo de cero conocimiento en esta tecnología y realizando ejercicios prácticos que te llevarán a saber lo que necesitas para crear aplicaciones con este framework.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de programación en JavaScript o TypeScript: No necesitas ser experto, pero debes entender funciones, objetos y estructuras básicas.",
+            "Conocimientos iniciales de HTML y CSS: Saber estructurar páginas web y aplicar estilos básicos.",
+            "Entorno de desarrollo listo (Node.js, Angular CLI, VSCode): Debes poder ejecutar proyectos localmente y manejar la terminal.",
+            "El curso es extenso, por lo que es ideal para personas comprometidas con su aprendizaje."
+        ],
+        "topics": [
+            "Fundamentos: TypeScript y Angular desde cero.",
+            "Angular moderno: Signals, formularios reactivos, directivas, lazy loading y nuevas APIs.",
+            "Desarrollo Full Stack: Autenticación con NestJS, consumo de APIs y despliegues en producción.",
+            "Herramientas profesionales: Angular Material, PrimeNG, Mapbox y manejo de estado."
+        ]
+    },
+    {
+        "slug": "docker-guia-practica",
+        "title": "Docker - Guía práctica de uso para desarrolladores",
+        "summary": "Aquí aprenderás Docker y para qué te puede servir, aprende a utilizar y crear imágenes, controlar el versionamiento y construcción automática de las mismas.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "Poder realizar instalaciones como administrador",
+            "Una computadora PC, Mac o Linux con los requisitos mínimos para correr Docker (revisar sitio web para confirmar)",
+            "Saber comandos básicos de consola o terminal es recomendado (no obligatorio)"
+        ],
+        "topics": [
+            "Docker CLI: Uso profesional de la línea de comandos.",
+            "Dockerfiles y Compose: Creación de imágenes y aplicaciones multicontenedor.",
+            "Buildx: Generación de imágenes para múltiples arquitecturas.",
+            "GitHub Actions: Automatización de pruebas, construcción y despliegues.",
+            "Imágenes populares: Nginx, PostgreSQL, MongoDB, Node, Alpine, PgAdmin, PHPMyAdmin y más.",
+            "Cloud: DigitalOcean, registros privados y públicos.",
+            "Introducción a Kubernetes."
+        ]
+    },
+    {
+        "slug": "nest-graphql",
+        "title": "Nest + GraphQL: Evoluciona tus APIs.",
+        "summary": "Aprende cómo implementar GraphQL en tu backend con Nest.js ( Code First Approach), y con ello hacer APIs flexibles, dinámicas y personalizadas a las necesidades del FrontEnd.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Estar familiarizado con Nest (decoradores, clases, módulos)",
+            "No es necesario saber nada sobre GraphQL (esto es cubierto en el curso)",
+            "Conocimiento de JavaScript y TypeScript es recomendado",
+            "Este NO es un curso para aprender Nest puro, es para aprender Nest con GraphQL"
+        ],
+        "topics": [
+            "GraphQL: Queries, Mutations, Variables, Fragments, Scalars y Object Types.",
+            "NestJS: Code First, DTOs, Resolvers, validaciones y decoradores personalizados.",
+            "Consultas avanzadas: Paginación, filtros y relaciones entre entidades.",
+            "Seguridad: JWT, autenticación y protección de rutas y campos.",
+            "Bases de datos: PostgreSQL y relaciones.",
+            "Despliegue: Docker, Docker Compose, Docker Hub y DigitalOcean.",
+            "Documentación y herramientas: Generación automática de documentación, Git y GitHub.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "programacion-para-principiantes",
+        "title": "Programación para principiantes - Primeros pasos",
+        "summary": "Este curso tiene por objetivo brindarte una base para comenzar tu camino en el desarrollo de aplicaciones de cualquier tipo. Partimos de cero desarrollando nuestra lógica, aprendiendo poco a poco conceptos nuevos hasta llegar a crear un pequeño juego",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "Debes poder realizar instalaciones en el equipo",
+            "Para seguir el curso, pueden hacerlo en Windows, OSX o Linux",
+            "Ganas de aprender a programar"
+        ],
+        "topics": [
+            "Conceptos fundamentales: Lenguajes de programación, variables, constantes y librerías.",
+            "Programación: Funciones, ciclos, decisiones, arreglos, objetos y clases.",
+            "Estructuras de control: Lógica para resolver problemas paso a paso.",
+            "Proyecto final: Creación y despliegue de un juego web.",
+            "Introducción a tecnologías modernas: React y Node.js.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "nest",
+        "title": "Nest: Desarrollo backend escalable con Node",
+        "summary": "Nest es un framework de node extensible, versátil y progresivo, el cual nos ofrece la columna vertebral de todo tipo de aplicaciones del lado del servidor. Partiremos desde las bases de Nest hasta desplegar varios backends en internet y mucho más!",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Conocimiento de JavaScript es necesario",
+            "Bases de TypeScript son recomendadas",
+            "Tener una idea general de Node es recomendado",
+            "Tener una idea de programación orientada a objetos es recomendada pero no necesaria"
+        ],
+        "topics": [
+            "Core Building Blocks: Services, Controllers, Providers, Modules, Decorators, Guards, Gateways, Interceptors y Exception Filters.",
+            "Backend moderno: APIs REST, JWT, autenticación, autorización por roles y ciclo de vida de una petición.",
+            "Bases de datos: PostgreSQL, MongoDB, TypeORM, Mongoose, transacciones y Repository Pattern.",
+            "Validaciones: DTOs, Pipes, Class Transformer y validaciones de solicitudes.",
+            "Infraestructura: Docker, Docker Compose, CORS y despliegues a producción.",
+            "Buenas prácticas: Principios SOLID, TypeScript, genéricos, interfaces y estructuras recomendadas por el equipo de Nest.",
+            "Documentación: Generación automática y semiautomática de APIs.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "tanstack-query",
+        "title": "TanStack Query: Un poderoso gestor de estado asíncrono",
+        "summary": "TanStack Query es una librería indispensable para mejorar la experiencia de usuario en nuestras aplicaciones de React mediante un poderoso gestor de estado asíncrono.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimientos básicos de React y TypeScript"
+        ],
+        "topics": [
+            "Fundamentos de TanStack Query: useQuery, manejo de errores, DevTools y Custom Hooks.",
+            "Consumo de APIs: Axios, autenticación con GitHub y carga de Issues y comentarios.",
+            "Optimización: Caché, QueryClient, prefetchQuery, setQueryData e initialData.",
+            "Consultas avanzadas: Filtros, paginación, Infinite Scroll y manejo de estados.",
+            "Mutaciones: Introducción al manejo de cambios sobre los datos.",
+            "Proyecto práctico: Construcción de una aplicación utilizando productos, categorías y consultas optimizadas."
+        ]
+    },
+    {
+        "slug": "visual-studio-code",
+        "title": "Visual Studio Code: Mejora tu velocidad para codificar",
+        "summary": "Visual Studio Code es un editor de texto bastante poderoso con muchos atajos y formas de editar código. Este curso se enfoca en 2 áreas principales: Aumentar tu velocidad de desarrollo y conocer más sobre VSCode.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "Conocimiento básico de VSCode es recomendado pero no obligatorio"
+        ],
+        "topics": []
+    },
+    {
+        "slug": "dart-cero-hasta-detalles",
+        "title": "Dart: De cero hasta los detalles",
+        "summary": "Aquí aprenderás desde lo más básico de Dart hasta temas más complejos y necesarios para trabajar con cualquier tecnología que utilice Dart como lenguaje de programación.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "Conocimiento de programación estructurada es recomendable",
+            "El curso se puede seguir en Windows, Mac OSX o Linux",
+            "Este curso es para aprender Dart, no es para aprender programación."
+        ],
+        "topics": []
+    },
+    {
+        "slug": "javascript-moderno",
+        "title": "JavaScript Moderno: Guía para dominar el lenguaje",
+        "summary": "El objetivo principal del curso es enseñarte JavaScript actual, empezando de cero conocimiento en JavaScript hasta llevarte a un nivel avanzado y competitivo en el mercado laboral actual.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "Pueden seguir el curso en Windows, OSX, Linux",
+            "Tener derechos de administrador para instalaciones",
+            "Saber sobre programación básica ayudará mucho"
+        ],
+        "topics": [
+            "Fundamentos de JavaScript: Tipos de datos, objetos, operadores, ciclos y estructuras de control.",
+            "ESNext: Clases, propiedades privadas, promesas, callbacks y funciones generadoras.",
+            "Desarrollo Web: Manipulación del DOM, Fetch API, CRUD y carga de archivos.",
+            "Herramientas modernas: Node.js, NPM, Vite, JSDoc y VS Code.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "typescript-guia-completa",
+        "title": "TypeScript: Tu completa guía y manual de mano.",
+        "summary": "Al finalizar el curso sabremos cómo funciona a detalle TypeScript, y habremos hecho más de 50 scripts. Todo lo visto en clase te servirá para mejorar la forma en la que siempre hemos programado en JavaScript, sin contar que es usado por el framework",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "Conocimiento básico de JavaScript: variables, ciclos y funciones",
+            "Conocimiento básico de programación estructurada es recomendado",
+            "Ganas de aprender un nuevo lenguaje basado en tipos",
+            "Posibilidad de instalar programas como administrador en su equipo"
+        ],
+        "topics": []
+    },
+    {
+        "slug": "react-pro",
+        "title": "React PRO: Lleva tus bases al siguiente nivel",
+        "summary": "El objetivo principal es simple, mejorar tus habilidades existentes de React. No es un curso para personas que quieran empezar con esta librería. El curso está dirigido a personas que ya tengan conocimientos de React con Hooks.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Tener las bases de React con Hooks",
+            "Saber TypeScript es útil pero no indispensable (introducción incluida)",
+            "Poder realizar instalaciones en el equipo como administrador"
+        ],
+        "topics": [
+            "React + TypeScript: Desarrollo moderno utilizando tipado estático.",
+            "Patrones de componentes: Compound Components, Control Props, State Initializer, Function Child y más.",
+            "Formularios: Formik, Yup, validaciones y formularios dinámicos.",
+            "Storybook: Documentación, publicación y creación de librerías reutilizables.",
+            "Automatización: GitHub Actions, Semantic Release y despliegues automáticos a NPM.",
+            "PWAs: Service Workers, Workbox, Background Sync, IndexedDB y funcionamiento offline.",
+            "Y mucho más..."
+        ]
+    },
+    {
+        "slug": "solid-clean-code",
+        "title": "Principios SOLID y Clean Code",
+        "summary": "Si hablamos de diseño y desarrollo de aplicaciones, Los principios S.O.L.I.D. son unas palabras que debes conocer como uno de los fundamentos de la arquitectura y desarrollo de software.",
+        "areas": [
+            "bases"
+        ],
+        "prerequisites": [
+            "Tener conocimiento básico de programación",
+            "Conocimiento básico de JavaScript y TypeScript",
+            "Tener conceptos de programación orientada a objetos",
+            "Poder realizar instalaciones y descomprimir archivos"
+        ],
+        "topics": [
+            "S – Single Responsibility Principle (SRP): Principio de Responsabilidad Única.",
+            "O – Open/Closed Principle (OCP): Principio Abierto/Cerrado.",
+            "L – Liskov Substitution Principle (LSP): Principio de Sustitución de Liskov.",
+            "I – Interface Segregation Principle (ISP): Principio de Segregación de Interfaces.",
+            "D – Dependency Inversion Principle (DIP): Principio de Inversión de Dependencias."
+        ]
+    },
+    {
+        "slug": "codex",
+        "title": "Codex: agentes, skills, MCP y Spec-Driven Development",
+        "summary": "Aprende a desarrollar con Codex CLI construyendo door-list, una aplicación de eventos con check-in por QR. Dominarás agentes, skills, MCP, sandbox y aprobaciones, y la re-construirás con Spec-Driven Development y Spec Kit.",
+        "areas": [
+            "agentes ia"
+        ],
+        "prerequisites": [
+            "Disponible al finalizar la construcción de este curso."
+        ],
+        "topics": []
+    },
+    {
+        "slug": "go-microservicios",
+        "title": "Go: aplicado a microservicios",
+        "summary": "Aprende a transformar un proyecto monolítico en uno de microservicios a partir de un proyecto existente. Aprenderás a como funciona un sistema distribuido, gRPC, API Gateway, Service Recovery, Arquitectura Event Driven, resiliencia, seguridad y más.",
+        "areas": [],
+        "prerequisites": [
+            "Disponible al finalizar la construcción de este curso."
+        ],
+        "topics": []
+    },
+    {
+        "slug": "kafka-springboot-event-driven",
+        "title": "Kafka y SpringBoot: Arquitectura Event-Driven",
+        "summary": "Aprende Apache Kafka con Spring Boot 4 y Java 21 construyendo un backend real que evoluciona de monolito modular a microservicios, con criterio de arquitectura y Spec-Driven Development. Un proyecto que crece y se resuelve clase a clase.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Disponible al finalizar la construcción de este curso."
+        ],
+        "topics": []
+    },
+    {
+        "slug": "patrones-diseno-agentico",
+        "title": "Patrones de diseño agéntico: Respuestas efectivas a desafíos",
+        "summary": "Aprende a construir agentes de IA en TypeScript aplicando los patrones que usa la industria —ReAct, Planning, Reflection, multi-agente, guardrails — construyéndolos a mano y midiendo en cada paso su coste real en tokens, latencia y dólares.",
+        "areas": [
+            "backend"
+        ],
+        "prerequisites": [
+            "Disponible al finalizar la construcción de este curso."
+        ],
+        "topics": []
+    },
+    {
+        "slug": "Vue-intermedio",
+        "title": "Vue.js - Intermedio: Lleva tus bases al siguiente nivel",
+        "summary": "Lleva tus bases de Vue.js al siguiente nivel siguiendo recomendaciones actuales recomendadas por el equipo de Vue.js. Aquí aprenderás a trabajar con TypeScript, Pinia, TanStack Query, Script Setup y el composition API.",
+        "areas": [
+            "frontend"
+        ],
+        "prerequisites": [
+            "Conocimiento básico de Vue es recomendado (options api o composition api)",
+            "Conocimiento básico de TypeScript es recomendado"
+        ],
+        "topics": [
+            "Vue 3: Script Setup y Composition API.",
+            "Vue Query: Queries, Mutations, caché, QueryClient, Prefetch y manejo manual de caché.",
+            "Pinia: Options Store y Setup Store.",
+            "Quasar: Sistema de estilos, temas, Boot Files e íconos.",
+            "Vue Router: Rutas simples, anidadas y Lazy Loading.",
+            "Integraciones: Axios, GitHub API y Vue DevTools.",
+            "Arquitectura: TypeScript, interfaces, componentes reutilizables, modales y loaders.",
+            "Y mucho más..."
+        ]
+    }
+]
