@@ -8,6 +8,10 @@ function getCourse(slug: string): (typeof courses)[number] {
   if (!course) throw new Error(`No se encontró el curso ${slug} en el catálogo.`);
   return course;
 }
+
+export function getCourseForQuiz(slug: string): (typeof courses)[number] {
+  return getCourse(slug);
+}
 export function getProgramOptions(): ProgramOption[] {
   return programs.map((program) => ({
     slug: program.slug, name: program.name,
